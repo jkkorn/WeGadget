@@ -1,0 +1,40 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container" style="width: auto;">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">WeGadget</a>
+        <ul class="nav pull-right">
+          <li class="brand">
+            <% if user_signed_in? %>
+                <%= current_user.email %>
+            <% end %>
+          </li>
+          <li class="divider-vertical"></li>
+          <li>
+                <% if user_signed_in? %>
+                    <%= link_to "Logout", destroy_user_session_path, :method => :delete %>
+                <% else %>
+                    <%= link_to "Login", new_user_session_path %>
+                <% end %>
+          </li>
+        </ul>
+      </div><!-- /.nav-collapse -->
+    </div>
+  </div><!-- /navbar-inner -->
+</div>
+
+
+<form style="margin-top: 300px; margin-left: 320px;">
+  <div style="padding-left: 40px;">
+      <input type="text" class="input-big search-query" style="width: 430px; padding: 8px;">
+      <a class="btn btn-large" href="#"><i class="icon-search"></i>Search</a>
+  </div>
+</form>
+
+<div style="margin-left: 400px; position: absolute; bottom: 0;">
+    <button class="btn btn-primary" style="width: 440px; padding: 12px; margin-bottom: 20px;">Let's write a tutorial</button>
+</div>
