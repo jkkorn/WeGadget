@@ -1,0 +1,45 @@
+<%= render "wegadget/header" %>
+
+<%= form_for @tutorial, :html => {:class => "form-horizontal well"}, :url => {:action => 'create'} do |t| %>
+
+    <fieldset>
+      <legend>Look my tutorial: <%= @tutorial.title %></legend>
+      <div class="control-group">
+        <div class="controls">
+          <% if @tutorial.errors.any? %>
+              <% @tutorial.errors.full_messages.each do |msg| %>
+                  <span class="label label-important"><%= msg %></span>
+              <% end %>
+          <% end %>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input01">Title</label>
+        <div class="controls">
+          <%= @tutorial.title %>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input02">Subtitle</label>
+        <div class="controls">
+          <%= @tutorial.subtitle %>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="textarea">Description</label>
+        <div class="controls">
+            <%= text_area_tag 'bio', @tutorial.description, :class => "input-xlarge", :style => "width: 800px;", :rows => 20, :cols => 500, :disabled => true %>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="select01">Category</label>
+        <div class="controls">
+          <%= @tutorial.category.name %>
+        </div>
+      </div>
+      <div class="form-actions">
+        <%= link_to_function "Back", "history.back()", :class => "btn" %>
+      </div>
+    </fieldset>
+
+<% end %>
