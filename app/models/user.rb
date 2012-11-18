@@ -11,4 +11,8 @@ class User < ActiveRecord::Base
 
   has_many :tutorials
 
+  def username
+    email.split('@')[0]
+  end
+
 end

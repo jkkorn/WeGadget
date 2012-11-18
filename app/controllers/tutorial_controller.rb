@@ -20,14 +20,14 @@ class TutorialController < ApplicationController
     @tutorial = Tutorial.new(params[:tutorial])
     @tutorial.user_id = current_user.id
     if @tutorial.save
-      redirect_to(:action => 'list')
+      redirect_to(:action => 'show', :id => @tutorial.id)
     else
       render('new')
     end
   end
 
-  def update
-
+  def show
+    @tutorial = Tutorial.find(params[:id])
   end
 
 

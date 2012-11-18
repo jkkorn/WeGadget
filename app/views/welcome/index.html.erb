@@ -11,11 +11,12 @@
 <% end %>
 
 <ul class="align-trending-topics">
-  <li><%= link_to "Como escrever um tutorial? - helenamcfreire", {:controller => "welcome", :action => "profile"}, :class => "brand" %></li>
-  <li><%= link_to "Como escrever um tutorial? - helenamcfreire", {:controller => "welcome", :action => "profile"}, :class => "brand" %></li>
-  <li><%= link_to "Como escrever um tutorial? - helenamcfreire", {:controller => "welcome", :action => "profile"}, :class => "brand" %></li>
-  <li><%= link_to "Como escrever um tutorial? - helenamcfreire", {:controller => "welcome", :action => "profile"}, :class => "brand" %></li>
-  <li><%= link_to "Como escrever um tutorial? - helenamcfreire", {:controller => "welcome", :action => "profile"}, :class => "brand" %></li>
+  <% @tutorials.each do |t| %>
+    <li>
+      <%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id}, :class => "brand" %> -
+      <%= link_to t.user.username, {:controller => "welcome", :action => "profile"}, :class => "brand" %>
+    </li>
+  <% end %>
 </ul>
 
 <div class="align-lets-write-tutorial">
