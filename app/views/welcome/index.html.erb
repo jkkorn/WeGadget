@@ -1,0 +1,27 @@
+<%= render "wegadget/header" %>
+
+
+<%= image_tag('logo.png', :style => "margin: 170px 0px 10px 460px;") %>
+
+<%= form_tag :controller => "tutorial", :action => "list", :method => 'get' do %>
+    <div class="align-search-input">
+          <%= text_field_tag :search, params[:search], :class => "input-big search-query search-input" %>
+          <%= submit_tag "Search", :name => nil, :class => "btn btn-large" %>
+    </div>
+<% end %>
+
+<ul class="align-trending-topics">
+  <li><%= link_to "Como escrever um tutorial? - helenamcfreire", {:controller => "welcome", :action => "profile"}, :class => "brand" %></li>
+  <li><%= link_to "Como escrever um tutorial? - helenamcfreire", {:controller => "welcome", :action => "profile"}, :class => "brand" %></li>
+  <li><%= link_to "Como escrever um tutorial? - helenamcfreire", {:controller => "welcome", :action => "profile"}, :class => "brand" %></li>
+  <li><%= link_to "Como escrever um tutorial? - helenamcfreire", {:controller => "welcome", :action => "profile"}, :class => "brand" %></li>
+  <li><%= link_to "Como escrever um tutorial? - helenamcfreire", {:controller => "welcome", :action => "profile"}, :class => "brand" %></li>
+</ul>
+
+<div class="align-lets-write-tutorial">
+
+  <%= form_for(:tutorial, :url => {:controller => 'tutorial', :action => 'new'}) do |t| %>
+      <%= t.submit "Let's write a tutorial", :class => "btn btn-primary lets-write-tutorial" %>
+  <% end %>
+
+</div>

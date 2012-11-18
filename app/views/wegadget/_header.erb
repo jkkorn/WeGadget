@@ -1,0 +1,27 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container" style="width: auto;">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <%= link_to "WeGadget", {:controller => "welcome", :action => "index"}, :class => "brand" %>
+      <ul class="nav pull-right">
+        <li class="brand">
+          <% if user_signed_in? %>
+              <%= current_user.email %>
+          <% end %>
+        </li>
+        <li class="divider-vertical"></li>
+        <li>
+          <% if user_signed_in? %>
+              <%= link_to "Logout", destroy_user_session_path, :method => :delete %>
+          <% else %>
+              <%= link_to "Login", new_user_session_path %>
+          <% end %>
+        </li>
+      </ul>
+    </div><!-- /.nav-collapse -->
+  </div>
+</div><!-- /navbar-inner -->

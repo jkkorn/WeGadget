@@ -1,0 +1,20 @@
+<%= render "wegadget/header" %>
+
+<%= form_for(resource, :as => resource_name, :url => confirmation_path(resource_name), :html => { :method => :post, :class => "form-horizontal well" }) do |f| %>
+  <%= devise_error_messages! %>
+
+    <fieldset>
+      <legend>Resend confirmation instructions</legend>
+      <div class="control-group">
+        <label class="control-label" for="input01"><%= f.label :email %></label>
+        <div class="controls">
+          <%= f.email_field :email, :class => "input-xlarge", :id => "input01" %>
+        </div>
+      </div>
+      <div class="form-actions">
+        <%= f.submit "Resend confirmation instructions", :class => "btn btn-primary" %>
+        <%= render "devise/shared/links" %>
+      </div>
+    </fieldset>
+
+<% end %>

@@ -1,0 +1,47 @@
+<%= render "wegadget/header" %>
+
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put, :class => "form-horizontal well" }) do |f| %>
+
+    <fieldset>
+      <legend>Edit <%= resource_name.to_s.humanize %></legend>
+      <div class="control-group">
+        <div class="controls">
+          <% if resource.errors.any? %>
+              <% resource.errors.full_messages.each do |msg| %>
+                  <span class="label label-important"><%= msg %></span>
+              <% end %>
+          <% end %>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input01"><%= f.label :email %></label>
+        <div class="controls">
+          <%= f.email_field :email, :class => "input-xlarge", :id => "input01" %>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input02"><%= f.label :password %></label>
+        <div class="controls">
+          <%= f.password_field :password_confirmation, :autocomplete => "off" , :class => "input-xlarge", :id => "input02"   %>
+          <p class="help-block">(leave blank if you don't want to change it)</p>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input03"><%= f.label :password_confirmation %></label>
+        <div class="controls">
+          <%= f.password_field :password_confirmation, :class => "input-xlarge", :id => "input03"  %>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input04"><%= f.label :current_password %></label>
+        <div class="controls">
+          <%= f.password_field :current_password, :class => "input-xlarge", :id => "input04" %>
+          <p class="help-block">(we need your current password to confirm your changes)</p>
+        </div>
+      </div>
+      <div class="form-actions">
+        <%= f.submit "Update", :class => "btn btn-primary" %>
+      </div>
+    </fieldset>
+
+<% end %>
