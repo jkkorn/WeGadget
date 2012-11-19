@@ -14,6 +14,7 @@ class TutorialController < ApplicationController
 
   def new
     @tutorial = Tutorial.new
+    mixpanel.track("o usuario iniciou um tutorial")
   end
 
   def create
