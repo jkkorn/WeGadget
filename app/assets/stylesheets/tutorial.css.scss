@@ -1,3 +1,105 @@
 // Place all the styles related to the tutorial controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.show-more a {
+  text-decoration: none;
+  color: #878787;
+  overflow: hidden;
+  font-weight: bold;
+  cursor: auto;
+}
+
+.show-more a:hover {
+  color: #61C3CC;
+  text-decoration: none;
+}
+
+.row {
+  zoom: 1;
+  margin-left: 134px!important;
+}
+
+.row > [class*="span"] {
+  display: inline;
+  float: left;
+}
+
+.span12 {
+  width: 700px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 0;
+  font-size: 13px;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+table td {
+  vertical-align: top;
+  border-top: 1px solid #DDD;
+}
+
+table th, table td {
+  padding: 10px 10px 9px;
+  line-height: 18px;
+  text-align: left;
+}
+
+
+table, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+
+.align-form {
+  width: 1084px!important;
+  margin-left: 71px!important;
+}
+
+.show-tutorial-title {
+  background: #1A1B1D;
+  font-size: 40px;
+  line-height: 45px;
+  padding: 20px 15px;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.show-tutorial {
+  padding: 10px;
+  background: white;
+  width: 870px;
+  margin-left: 30px;
+  font-family: Tahoma, Verdana, sans-serif;
+  color: #555;
+  font-size: 13px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #EEE;
+}

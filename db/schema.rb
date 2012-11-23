@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(:version => 20121117181539) do
     t.string   "title",       :default => "", :null => false
     t.string   "subtitle",    :default => ""
     t.text     "description",                 :null => false
+    t.integer  "vote",                        :null => false
     t.datetime "created_at",                  :null => false
     t.datetime "updated_at",                  :null => false
   end

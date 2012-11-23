@@ -1,6 +1,6 @@
 <%= render "wegadget/header" %>
 
-<%= form_for @tutorial, :html => {:class => "form-horizontal well"}, :url => {:action => 'create'} do |t| %>
+<%= form_for @tutorial, :html => {:class => "form-horizontal well align-form"}, :url => {:action => 'create'} do |t| %>
 
   <fieldset>
     <legend>Create new tutorial</legend>
@@ -16,19 +16,19 @@
     <div class="control-group">
       <label class="control-label" for="input01">Title *</label>
       <div class="controls">
-        <%= t.text_field :title, :class => "input-xlarge", :id => "input01" %>
+        <%= t.text_field :title, :class => "input-xlarge", :id => "input01", :maxlength => 50, :style => "width: 70%" %>
       </div>
     </div>
     <div class="control-group">
       <label class="control-label" for="input02">Subtitle</label>
       <div class="controls">
-        <%= t.text_field :subtitle, :class => "input-xlarge", :id => "input02"  %>
+        <%= t.text_field :subtitle, :class => "input-xlarge", :id => "input02", :maxlength => 100, :style => "width: 70%"  %>
       </div>
     </div>
     <div class="control-group">
       <label class="control-label" for="textarea">Description *</label>
       <div class="controls">
-        <%= t.text_area :description, :class => "input-xlarge", :style => "width: 800px;", :rows => 20, :cols => 500 %>
+        <%= t.text_area :description, :class => "input-xlarge", :id => "txtarea-description", :style => "width: 800px;", :rows => 20, :cols => 500 %>
       </div>
     </div>
     <div class="control-group">

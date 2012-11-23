@@ -1,5 +1,13 @@
 @import "bootstrap";
 
+.date {
+  font-family: Monaco, "Courier New", monospace;
+}
+
+form {
+  margin: 0 0 5px!important;
+}
+
 .search-input {
   width: 430px;
   padding: 8px!important;
@@ -10,8 +18,13 @@
   margin-left: 320px;
 }
 
+.trending-topics {
+  font-family: Verdana!important;
+  font-size: 11px;
+}
+
 .align-trending-topics {
-  margin-left: 460px;
+  margin-left: 390px;
   list-style: none;
 }
 
@@ -21,9 +34,12 @@
   bottom: 0;
 }
 
-
 .lets-write-tutorial {
   width: 440px!important;
   padding: 12px;
   margin-bottom: 20px;
+}
+
+.span9 {
+  width: 1000px!important;
 }

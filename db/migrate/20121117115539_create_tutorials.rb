@@ -4,9 +4,10 @@ class CreateTutorials < ActiveRecord::Migration
 
       t.references :category
       t.references :user
-      t.string :title,         :null => false, :default => ""
-      t.string :subtitle,      :null => true, :default => ""
-      t.text   :description,   :null => false
+      t.string     :title,         :null => false, :default => ""
+      t.string     :subtitle,      :null => true, :default => ""
+      t.text       :description,   :null => false
+      t.integer    :vote,          :null => false
       t.timestamps
 
     end

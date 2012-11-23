@@ -1,23 +1,26 @@
 <%= render "wegadget/header" %>
 
 
-<%= image_tag('logo.png', :style => "margin: 170px 0px 10px 460px;") %>
+<%= image_tag('logo.png', :style => "margin: 140px 0px 10px 460px;") %>
 
 <%= form_tag :controller => "tutorial", :action => "list", :method => 'get' do %>
     <div class="align-search-input">
-          <%= text_field_tag :search, params[:search], :class => "input-big search-query search-input" %>
+          <%= text_field_tag :search, params[:search], :class => "input-big search-input", :style => "margin-top: 10px" %>
           <%= submit_tag "Search", :name => nil, :class => "btn btn-large" %>
     </div>
 <% end %>
 
 <ul class="align-trending-topics">
   <% @tutorials.each do |t| %>
-    <li>
-      <%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id}, :class => "brand" %> -
-      <%= link_to t.user.username, {:controller => "welcome", :action => "profile"}, :class => "brand" %>
+    <li class="trending-topics">
+      <span class="date"><%= t.created_at.to_formatted_s(:short) %> » </span>
+      <%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id}, :class => "brand"%> -
+      <%= link_to t.user.username, {:controller => "welcome", :action => "profile", :id => t.user.id}, :class => "brand" %>
     </li>
   <% end %>
 </ul>
+
+<!--<input type="number" name="abp" class="abp"> usar no vote (reddit)-->
 
 <div class="align-lets-write-tutorial">
 
