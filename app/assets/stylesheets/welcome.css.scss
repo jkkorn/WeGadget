@@ -1,5 +1,13 @@
 @import "bootstrap";
 
+::-webkit-input-placeholder {
+  font-size: 17px!important;
+}
+
+:-moz-placeholder {
+  font-size: 17px!important;
+}
+
 .date {
   font-family: Monaco, "Courier New", monospace;
 }
@@ -9,7 +17,7 @@ form {
 }
 
 .search-input {
-  width: 430px;
+  width: 467px;
   padding: 8px!important;
 }
 

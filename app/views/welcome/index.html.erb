@@ -1,15 +1,15 @@
 <%= render "wegadget/header" %>
 
 
+<!-- Logo -->
 <%= image_tag('logo.png', :style => "margin: 140px 0px 10px 460px;") %>
 
-<%= form_tag :controller => "tutorial", :action => "list", :method => 'get' do %>
-    <div class="align-search-input">
-          <%= text_field_tag :search, params[:search], :class => "input-big search-input", :style => "margin-top: 10px" %>
-          <%= submit_tag "Search", :name => nil, :class => "btn btn-large" %>
-    </div>
-<% end %>
+<!-- Campo texto para consulta -->
+<div class="align-search-input">
+      <%= text_field_tag :search, params[:search], :class => "input-big search-input", :style => "margin-top: 10px", :id => "categories", :placeholder => "Search tutorials" %>
+</div>
 
+<!-- Tutoriais mais votados -->
 <ul class="align-trending-topics">
   <% @tutorials.each do |t| %>
     <li class="trending-topics">
@@ -20,8 +20,7 @@
   <% end %>
 </ul>
 
-<!--<input type="number" name="abp" class="abp"> usar no vote (reddit)-->
-
+<!-- Botão Lets write a tutorial -->
 <div class="align-lets-write-tutorial">
 
   <%= form_for(:tutorial, :url => {:controller => 'tutorial', :action => 'new'}) do |t| %>
@@ -29,3 +28,18 @@
   <% end %>
 
 </div>
+
+<script>
+    $(function() {
+        $( "#categories" ).autocomplete({
+            source: "/welcome/categories",
+            select: function( event, ui ) {
+                $.ajax({
+                    success: function(data) {
+                        window.location.href = '/tutorial/list_by_category?id='+ui.item.id;
+                    }
+                });
+            }
+        });
+    });
+</script>

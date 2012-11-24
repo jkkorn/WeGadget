@@ -6,7 +6,6 @@ class TutorialController < ApplicationController
 
   def list_by_category
     @id = params[:id]
-
     @tutorials = Tutorial.find_all_by_category_id(@id)
     render('list')
   end

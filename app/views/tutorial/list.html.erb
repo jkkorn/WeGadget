@@ -1,26 +1,28 @@
 <%= render "wegadget/header" %>
 
-<%= form_tag :controller => "tutorial", :action => "list", :method => 'get' do %>
-    <div class="align-search-input">
-      <%= text_field_tag :search, params[:search], :class => "input-big search-input", :style => "margin-top: 10px" %>
-      <%= submit_tag "Search", :name => nil, :class => "btn btn-large" %>
-    </div>
-<% end %>
-
 
 <div class="row">
 <div class="span12">
 
 <table class="org-list" cellspacing="0" cellpadding="0">
 
-<thead>
-    <tr class="org-item">
+  <% if @tutorials.empty? %>
+      <div class="alert alert-info">
+            <h4 class="alert-heading">
+              No tutorial found in this category =( &nbsp;&nbsp;
+              <%= link_to 'Write a new one', {:controller => "tutorial", :action => "new"}, :class => "btn btn-primary" %>
+            </h4>
+      </div>
+  <% else %>
+      <thead>
+      <tr class="org-item">
         <th></th>
         <th class="hidden-phone header">
           <i class="icon-heart"></i>
         </th>
-    </tr>
-</thead>
+      </tr>
+      </thead>
+  <% end %>
 
 <tbody>
 
@@ -29,9 +31,6 @@
 <tr class="org-item">
   <td>
     <div class="org-item">
-      <span class="screenname">
-        <%= link_to t.user.username, {:controller => "welcome", :action => "profile", :id => t.user.id} %>
-      </span>:
       <span class="show-more">
         <%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id} %>
       </span>
