@@ -1,5 +1,16 @@
 <%= render "wegadget/header" %>
 
+<style>
+
+.ui-autocomplete {
+    max-height: 230px!important;
+    overflow-y: auto!important;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden!important;
+}
+
+</style>
+
 <!-- Logo -->
 <%= image_tag('logo.png', :style => "margin: 140px 0px 10px 460px;") %>
 
