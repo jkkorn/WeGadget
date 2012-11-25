@@ -2,12 +2,11 @@ class WelcomeController < ApplicationController
 
 
   def index
-    @tutorials = Tutorial.find_by_sql ["SELECT * FROM tutorials WHERE id <= 5"] #TODO refazer quando tiver o vote (reddit).
-    #jk: sim. amen. 
+    @tutorials = Tutorial.find_by_sql ["SELECT * FROM tutorials order by up_votes desc LIMIT 5"]
   end
 
   def profile
-    @tutorials = Tutorial.find_all_by_user_id(params[:id])
+    @tutorials = Tutorial.find_all_by_user_id(params[:id], :order => 'up_votes DESC')
   end
 
   #Categorias que aparecem no dropdown

@@ -14,6 +14,9 @@ gem 'devise-i18n', '~> 0.5.11'
 #bootstrap twitter = css/js/afins...
 gem 'bootstrap-sass'
 
+#Vote (like reddit)
+gem 'make_voteable'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

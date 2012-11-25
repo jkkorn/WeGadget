@@ -5,9 +5,20 @@ class TutorialController < ApplicationController
   end
 
   def list_by_category
-    @id = params[:id]
-    @tutorials = Tutorial.find_all_by_category_id(@id)
+    @tutorials = Tutorial.find_all_by_category_id(params[:id], :order => 'up_votes DESC')
     render('list')
+  end
+
+  def up_vote
+    @tutorial = Tutorial.find(params[:id])
+    current_user.up_vote!(@tutorial)
+    redirect_to(:controller => 'tutorial', :action => 'list_by_category', :id => params[:category_id])
+  end
+
+  def down_vote
+    @tutorial = Tutorial.find(params[:id])
+    current_user.down_vote!(@tutorial)
+    redirect_to(:controller => 'tutorial', :action => 'list_by_category', :id => params[:category_id])
   end
 
   def new
@@ -18,7 +29,6 @@ class TutorialController < ApplicationController
     clear_description(params[:tutorial])
     @tutorial = Tutorial.new(params[:tutorial])
     @tutorial.user_id = current_user.id
-    @tutorial.vote = 0 #TODO Retirar depois que implementar o vote
     if @tutorial.save
       redirect_to(:controller => 'welcome', :action => 'profile', :id => @tutorial.user.id)
     else

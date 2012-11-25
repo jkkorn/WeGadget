@@ -23,7 +23,7 @@
               <%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id} %>
             </td>
             <td class="hidden-phone">
-              <span class="label label-success myTooltip" style="color:white;"><%= t.vote %></span>
+              <span class="label label-success myTooltip" style="color:white;"><%= t.up_votes %></span>
             </td>
             <td class="hidden-phone"><%= t.category.name %></td>
             <td><%= t.created_at.to_formatted_s(:short) %></td>

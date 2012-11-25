@@ -29,7 +29,7 @@
 <% @tutorials.each do |t| %>
 
 <tr class="org-item">
-  <td>
+  <td style="vertical-align: middle;">
     <div class="org-item">
       <span class="show-more">
         <%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id} %>
@@ -37,7 +37,9 @@
     </div>
   </td>
   <td class="hidden-phone">
-    <span class="label label-success myTooltip" style="color:white;"><%= t.vote %></span>
+    <%= link_to image_tag('arrow_up.png'), {:controller => "tutorial", :action => "up_vote", :id => t.id, :category_id => t.category.id} %><br/>
+    <span class="label label-success" style="color:white;"><%= t.up_votes %></span><br/>
+    <%= link_to image_tag('arrow_down.png'), {:controller => "tutorial", :action => "down_vote", :id => t.id, :category_id => t.category.id} %>
   </td>
 </tr>
 

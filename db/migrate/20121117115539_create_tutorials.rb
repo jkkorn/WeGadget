@@ -7,7 +7,10 @@ class CreateTutorials < ActiveRecord::Migration
       t.string     :title,         :null => false, :default => ""
       t.string     :subtitle,      :null => true, :default => ""
       t.text       :description,   :null => false
-      t.integer    :vote,          :null => false
+
+      t.integer :up_votes,          :null => false, :default => 0
+      t.integer :down_votes,        :null => false, :default => 0
+
       t.timestamps
 
     end
