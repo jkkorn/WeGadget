@@ -10,15 +10,23 @@ class TutorialController < ApplicationController
   end
 
   def up_vote
-    @tutorial = Tutorial.find(params[:id])
-    current_user.up_vote!(@tutorial)
-    redirect_to(:controller => 'tutorial', :action => 'list_by_category', :id => params[:category_id])
+    if user_signed_in?
+        @tutorial = Tutorial.find(params[:id])
+        current_user.up_vote!(@tutorial)
+        redirect_to(:controller => 'tutorial', :action => 'list_by_category', :id => params[:category_id])
+    else
+      redirect_to(:controller => 'users', :action => 'sign_in')
+    end
   end
 
   def down_vote
-    @tutorial = Tutorial.find(params[:id])
-    current_user.down_vote!(@tutorial)
-    redirect_to(:controller => 'tutorial', :action => 'list_by_category', :id => params[:category_id])
+    if user_signed_in?
+        @tutorial = Tutorial.find(params[:id])
+        current_user.down_vote!(@tutorial)
+        redirect_to(:controller => 'tutorial', :action => 'list_by_category', :id => params[:category_id])
+    else
+      redirect_to(:controller => 'users', :action => 'sign_in')
+    end
   end
 
   def new
@@ -26,13 +34,17 @@ class TutorialController < ApplicationController
   end
 
   def create
-    clear_description(params[:tutorial])
-    @tutorial = Tutorial.new(params[:tutorial])
-    @tutorial.user_id = current_user.id
-    if @tutorial.save
-      redirect_to(:controller => 'welcome', :action => 'profile', :id => @tutorial.user.id)
+    if user_signed_in?
+        clear_description(params[:tutorial])
+        @tutorial = Tutorial.new(params[:tutorial])
+        @tutorial.user_id = current_user.id
+        if @tutorial.save
+          redirect_to(:controller => 'welcome', :action => 'profile', :id => @tutorial.user.id)
+        else
+          render('new')
+        end
     else
-      render('new')
+      redirect_to(:controller => 'users', :action => 'sign_in')
     end
   end
 

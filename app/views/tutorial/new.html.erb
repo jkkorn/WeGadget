@@ -1,45 +1,110 @@
 <%= render "wegadget/header" %>
 
-<%= form_for @tutorial, :html => {:class => "form-horizontal well align-form"}, :url => {:action => 'create'} do |t| %>
+<%= form_for @tutorial, :html => {:class => "form-horizontal"}, :url => {:action => 'create'} do |t| %>
 
-  <fieldset>
-    <legend>Create new tutorial</legend>
-    <div class="control-group">
-        <div class="controls">
-            <% if @tutorial.errors.any? %>
-                <% @tutorial.errors.full_messages.each do |msg| %>
-                      <span class="label label-important"><%= msg %></span>
-                <% end %>
-            <% end %>
-        </div>
+
+<div class="tutorial">
+
+  <h2 class="tutorial-title">Create new tutorial</h2>
+
+  <div class="control-group">
+    <div class="form-fields">
+      <% if @tutorial.errors.any? %>
+          <% @tutorial.errors.full_messages.each do |msg| %>
+              <span class="label label-important"><%= msg %></span>
+          <% end %>
+      <% end %>
     </div>
-    <div class="control-group">
-      <label class="control-label" for="input01">Title *</label>
-      <div class="controls">
-        <%= t.text_field :title, :class => "input-xlarge", :id => "input01", :maxlength => 50, :style => "width: 70%" %>
-      </div>
+  </div>
+  <div class="control-group">
+    <div class="form-fields">
+      <%= t.text_field :title, :class => "input-xlarge", :id => "input01", :maxlength => 50, :style => "width: 70%", :placeholder => 'Title *' %>
     </div>
-    <div class="control-group">
-      <label class="control-label" for="input02">Subtitle</label>
-      <div class="controls">
-        <%= t.text_field :subtitle, :class => "input-xlarge", :id => "input02", :maxlength => 100, :style => "width: 70%"  %>
-      </div>
+  </div>
+  <div class="control-group">
+    <div class="form-fields">
+      <%= t.text_field :subtitle, :class => "input-xlarge", :id => "input02", :maxlength => 100, :style => "width: 70%", :placeholder => 'Subtitle'  %>
     </div>
-    <div class="control-group">
-      <label class="control-label" for="textarea">Description *</label>
-      <div class="controls">
-        <%= t.text_area :description, :class => "input-xlarge", :id => "txtarea-description", :style => "width: 800px;", :rows => 20, :cols => 500 %>
-      </div>
+  </div>
+  <div class="control-group">
+    <div class="form-fields">
+      <a class="btn btn-small" href="javascript:addBold()">Bold</a>
+      <a class="btn btn-small" href="javascript:addItalic()">Italic</a>
+      <a class="btn btn-small" href="javascript:addBlockquote()">Blockquote</a>
+      <a class="btn btn-small" href="javascript:addImage()">Image</a>
+      <a class="btn btn-small" href="javascript:addOrderedList()">Ordered List</a>
+      <a class="btn btn-small" href="javascript:addUnorderedList()">Unordered List</a>
+      <a class="btn btn-small" href="javascript:addParagraph()">Paragraph</a>
+      <a class="btn btn-small" href="javascript:addPreformatted()">Preformatted</a>
+      <a class="btn btn-small" href="javascript:addHeading()">Heading 3</a>
+      <br/>
+      <%= t.text_area :description, :class => "input-xlarge", :id => "txtarea-description", :style => "height: 500px; width: 698px" %>
     </div>
-    <div class="control-group">
-      <label class="control-label" for="select01">Category</label>
-      <div class="controls">
-        <%= t.select :category_id, Category.all.collect {|c| [ c.name, c.id ] }, :include_blank => true %>
-      </div>
+  </div>
+  <div class="control-group">
+    <div class="form-fields">
+      <%= t.select :category_id, Category.all.collect {|c| [ c.name, c.id ] }, :include_blank => 'Category *' %>
     </div>
-    <div class="form-actions">
-      <%= t.submit "Save changes", :class => "btn btn-primary" %>
-      <%= link_to_function "Back", "history.back()", :class => "btn" %>
-    </div>
-  </fieldset>
+  </div>
+  <div class="form-actions">
+    <%= t.submit "Save changes", :class => "btn btn-primary" %>
+    <%= link_to_function "Back", "history.back()", :class => "btn" %>
+  </div>
+
+</div>
+
 <% end %>
+
+<script>
+
+  function addBold() {
+      var bold = "<b>\n</b>\n";
+      addTag(bold);
+  }
+
+  function addItalic() {
+      var italic = "<i>\n</i>\n";
+      addTag(italic);
+  }
+
+  function addBlockquote() {
+      var blockquote = "<blockquote>\n</blockquote>\n";
+      addTag(blockquote);
+  }
+
+  function addImage() {
+      var img = "<img src='#' />\n";
+      addTag(img);
+  }
+
+  function addOrderedList() {
+      var orderedList = "<ol>\n<li></li>\n</ol>\n";
+      addTag(orderedList);
+  }
+
+  function addUnorderedList() {
+      var unorderedList = "<ul>\n<li></li>\n</ul>\n";
+      addTag(unorderedList);
+  }
+
+  function addParagraph() {
+      var paragraph = "<p>\n</p>\n";
+      addTag(paragraph);
+  }
+
+  function addPreformatted() {
+      var preformatted = "<pre>\n</pre>\n";
+      addTag(preformatted);
+  }
+
+  function addHeading() {
+      var heading = "<h3>\n</h3>\n";
+      addTag(heading);
+  }
+
+  function addTag(tag) {
+      var description = document.getElementById('txtarea-description');
+      description.value += tag;
+  }
+
+</script>

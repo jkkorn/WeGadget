@@ -6,6 +6,7 @@ class WelcomeController < ApplicationController
   end
 
   def profile
+    @user = User.find(params[:id])
     @tutorials = Tutorial.find_all_by_user_id(params[:id], :order => 'up_votes DESC')
   end
 

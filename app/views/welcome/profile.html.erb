@@ -3,19 +3,33 @@
 
 <div class="span9">
 
-<h2>Your Tutorials</h2>
+  <% if !@tutorials.empty? %>
+        <h2><%= @user.username %>'s tutorials</h2>
+  <% end %>
 
 <table class="table table-condensed table-striped">
-  <thead>
+
+  <% if @tutorials.empty? %>
+      <div class="alert alert-info">
+        <h4 class="alert-heading">
+          You do not have tutorials yet =( &nbsp;&nbsp;
+          <%= link_to 'Write a new one', {:controller => "tutorial", :action => "new"}, :class => "btn btn-primary" %>
+        </h4>
+      </div>
+  <% else %>
+      <thead>
       <tr>
-            <th class="header">Title</th>
-            <th class="hidden-phone header">
-              <i class="icon-heart"></i>
-            </th>
-            <th class="hidden-phone header">Category</th>
-            <th class="header">Created at</th>
+        <th class="header">Title</th>
+        <th class="hidden-phone header">
+          <i class="icon-heart"></i>
+        </th>
+        <th class="hidden-phone header">Category</th>
+        <th class="header">Created at</th>
       </tr>
-  </thead>
+      </thead>
+  <% end %>
+
+
   <tbody>
   <% @tutorials.each do |t| %>
       <tr>
@@ -33,6 +47,8 @@
 
 </table>
 
-<%= link_to_function "Back", "history.back()", :class => "btn" %>
+<% if !@tutorials.empty? %>
+    <%= link_to_function "Back", "history.back()", :class => "btn" %>
+<% end %>
 
 </div>
