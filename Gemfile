@@ -9,7 +9,6 @@ gem 'pg'
 
 # Authentication
 gem 'devise'
-gem 'devise-i18n', '~> 0.5.11'
 
 #bootstrap twitter = css/js/afins...
 gem 'bootstrap-sass'
