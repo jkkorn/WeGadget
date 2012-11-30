@@ -28,16 +28,6 @@
   </div>
   <div class="control-group">
     <div class="form-fields">
-      <a class="btn btn-small" href="javascript:addBold()">Bold</a>
-      <a class="btn btn-small" href="javascript:addItalic()">Italic</a>
-      <a class="btn btn-small" href="javascript:addBlockquote()">Blockquote</a>
-      <a class="btn btn-small" href="javascript:addImage()">Image</a>
-      <a class="btn btn-small" href="javascript:addOrderedList()">Ordered List</a>
-      <a class="btn btn-small" href="javascript:addUnorderedList()">Unordered List</a>
-      <a class="btn btn-small" href="javascript:addParagraph()">Paragraph</a>
-      <a class="btn btn-small" href="javascript:addPreformatted()">Preformatted</a>
-      <a class="btn btn-small" href="javascript:addHeading()">Heading 3</a>
-      <br/>
       <%= t.text_area :description, :class => "input-xlarge", :id => "txtarea-description", :style => "height: 500px; width: 698px" %>
     </div>
   </div>
@@ -55,56 +45,14 @@
 
 <% end %>
 
-<script>
+<script type="text/javascript">
 
-  function addBold() {
-      var bold = "<b>\n</b>\n";
-      addTag(bold);
-  }
+    $('#txtarea-description').popover({
+        title: "Legend",
+        content: "Look, this field accepts HTML tags. \n Don't be afraid to use them. =)",
+        placement: "right"
+    });
+    $('#txtarea-description').popover("show");
 
-  function addItalic() {
-      var italic = "<i>\n</i>\n";
-      addTag(italic);
-  }
-
-  function addBlockquote() {
-      var blockquote = "<blockquote>\n</blockquote>\n";
-      addTag(blockquote);
-  }
-
-  function addImage() {
-      var img = "<img src='#' />\n";
-      addTag(img);
-  }
-
-  function addOrderedList() {
-      var orderedList = "<ol>\n<li></li>\n</ol>\n";
-      addTag(orderedList);
-  }
-
-  function addUnorderedList() {
-      var unorderedList = "<ul>\n<li></li>\n</ul>\n";
-      addTag(unorderedList);
-  }
-
-  function addParagraph() {
-      var paragraph = "<p>\n</p>\n";
-      addTag(paragraph);
-  }
-
-  function addPreformatted() {
-      var preformatted = "<pre>\n</pre>\n";
-      addTag(preformatted);
-  }
-
-  function addHeading() {
-      var heading = "<h3>\n</h3>\n";
-      addTag(heading);
-  }
-
-  function addTag(tag) {
-      var description = document.getElementById('txtarea-description');
-      description.value += tag;
-  }
 
 </script>

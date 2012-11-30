@@ -10,6 +10,11 @@ g=a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview tra
 mixpanel.init("a9244b93f7888910b2aa39eece88b1d4");</script><!-- end Mixpanel -->
 <!-- Analytics pohan! -->	
 	<%= render :partial => 'layouts/_ga' if Rails.env == 'production' %>
+
+  <script type="text/javascript">
+      bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
+  </script>
+
 </head>
 <body>
 
