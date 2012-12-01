@@ -37,17 +37,20 @@
     </div>
   </td>
   <td class="hidden-phone">
-    <%= link_to image_tag('arrow_up.png'), {:controller => "tutorial", :action => "up_vote", :id => t.id, :category_id => t.category.id} %><br/>
     <span class="label label-success" style="color:white;"><%= t.up_votes %></span><br/>
-    <%= link_to image_tag('arrow_down.png'), {:controller => "tutorial", :action => "down_vote", :id => t.id, :category_id => t.category.id} %>
   </td>
 </tr>
+
 
 <% end %>
 
 </tbody>
 
 </table>
+
+<% if not @tutorials.empty? %>
+  <%= will_paginate @tutorials %>
+<% end %>
 
 </div>
 </div>

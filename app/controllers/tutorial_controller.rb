@@ -1,11 +1,8 @@
 class TutorialController < ApplicationController
 
-  def list
-      @tutorials = Tutorial.all
-  end
-
   def list_by_category
     @tutorials = Tutorial.find_all_by_category_id(params[:id], :order => 'up_votes DESC')
+                         .paginate(:page => params[:page], :per_page => 10)
     render('list')
   end
 
@@ -13,7 +10,7 @@ class TutorialController < ApplicationController
     if user_signed_in?
         @tutorial = Tutorial.find(params[:id])
         current_user.up_vote!(@tutorial)
-        redirect_to(:controller => 'tutorial', :action => 'list_by_category', :id => params[:category_id])
+        render('show')
     else
       redirect_to(:controller => 'users', :action => 'sign_in')
     end
@@ -23,7 +20,7 @@ class TutorialController < ApplicationController
     if user_signed_in?
         @tutorial = Tutorial.find(params[:id])
         current_user.down_vote!(@tutorial)
-        redirect_to(:controller => 'tutorial', :action => 'list_by_category', :id => params[:category_id])
+        render('show')
     else
       redirect_to(:controller => 'users', :action => 'sign_in')
     end

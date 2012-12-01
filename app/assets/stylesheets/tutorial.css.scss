@@ -95,6 +95,13 @@ table, tbody, tfoot, thead, tr, th, td {
   margin-bottom: 20px;
 }
 
+.tutorial-subtitle {
+  font-weight: 400;
+  font-size: 17px;
+  font-style: italic;
+  color: #D6D5D5;
+}
+
 .tutorial-description {
   margin-bottom: 0px!important;
   padding: 0.5em 0px!important;
@@ -118,4 +125,10 @@ table, tbody, tfoot, thead, tr, th, td {
   line-height: 25px;
   margin-bottom: 10px;
   border-bottom: 1px solid #EEE;
+}
+
+.vote {
+  position: absolute!important;
+  margin-left: 127px!important;
+  margin-top: 11px!important;
 }

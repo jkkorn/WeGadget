@@ -1,8 +1,20 @@
 <%= render "wegadget/header" %>
 
-  <div class="tutorial">
+<div class="vote">
+    <%= link_to image_tag('arrow_up_32.png'), {:controller => "tutorial", :action => "up_vote", :id => @tutorial.id, :category_id => @tutorial.category.id} %><br/>
+    <span class="label label-inverse" style="color:white; padding: 11px;"><%= @tutorial.up_votes %></span><br/>
+    <%= link_to image_tag('arrow_down_32.png'), {:controller => "tutorial", :action => "down_vote", :id => @tutorial.id, :category_id => @tutorial.category.id} %>
+</div>
 
-        <h2 class="tutorial-title"><%= @tutorial.title %></h2>
+<div class="tutorial">
+
+        <h2 class="tutorial-title">
+            <%= @tutorial.title %>
+        </h2>
+
+        <span class="tutorial-subtitle">
+            <%= @tutorial.subtitle %>
+        </span>
 
         <div class="tutorial-description">
             <%= raw @tutorial.description %><!-- esse raw serve pra imprimir texto html -->
@@ -31,7 +43,7 @@ blockquote[style], blockquote {
         color: rgba(0, 0, 0, 0.74902)!important;
     }
 
-    pre[style], pre {
+pre[style], pre {
         margin-bottom: 0px!important;
         padding: 15px!important;
         border: 0px!important;

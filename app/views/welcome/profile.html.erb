@@ -3,9 +3,9 @@
 <div class="row">
 <div class="span12">
 
-  <% if !@tutorials.empty? %>
-        <h2><%= @user.username %>'s tutorials</h2>
-  <% end %>
+<% if not @tutorials.empty? %>
+    <h2><%= @user.username %>'s tutorials</h2>
+<% end %>
 
 <table class="table table-condensed table-striped">
 
@@ -47,8 +47,8 @@
 
 </table>
 
-<% if !@tutorials.empty? %>
-    <%= link_to_function "Back", "history.back()", :class => "btn" %>
+<% if not @tutorials.empty? %>
+  <%= will_paginate @tutorials %>
 <% end %>
 
 </div>
