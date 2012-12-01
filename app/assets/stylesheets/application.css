@@ -16,3 +16,7 @@
 body {
     background: #F3F3F3!important;
 }
+
+.field_with_errors {
+    display: inline;
+}

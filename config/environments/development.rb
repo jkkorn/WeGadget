@@ -1,4 +1,7 @@
 Wegadget::Application.configure do
+
+  #config.action_view.field_error_proc = proc {|html, instance| html }
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
