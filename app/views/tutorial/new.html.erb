@@ -33,6 +33,11 @@
   </div>
   <div class="control-group">
     <div class="form-fields">
+      <%= t.select :classification_id, Classification.all.collect {|c| [ c.name, c.id ] }, :include_blank => 'Classification *' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-fields">
       <%= t.text_area :description, :class => "input-xlarge", :id => "txtarea-description", :style => "height: 500px; width: 698px" %>
     </div>
   </div>

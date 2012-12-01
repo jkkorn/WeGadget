@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121124231416) do
+ActiveRecord::Schema.define(:version => 20121201192725) do
 
   create_table "categories", :force => true do |t|
     t.integer  "category_id"
@@ -21,6 +21,12 @@ ActiveRecord::Schema.define(:version => 20121124231416) do
   end
 
   add_index "categories", ["category_id"], :name => "index_categories_on_category_id"
+
+  create_table "classifications", :force => true do |t|
+    t.string   "name",       :default => "", :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
+  end
 
   create_table "tags", :force => true do |t|
     t.string   "name",       :default => "", :null => false
@@ -37,17 +43,19 @@ ActiveRecord::Schema.define(:version => 20121124231416) do
 
   create_table "tutorials", :force => true do |t|
     t.integer  "category_id"
+    t.integer  "classification_id"
     t.integer  "user_id"
-    t.string   "title",       :default => "", :null => false
-    t.string   "subtitle",    :default => ""
-    t.text     "description",                 :null => false
-    t.integer  "up_votes",    :default => 0,  :null => false
-    t.integer  "down_votes",  :default => 0,  :null => false
-    t.datetime "created_at",                  :null => false
-    t.datetime "updated_at",                  :null => false
+    t.string   "title",             :default => "", :null => false
+    t.string   "subtitle",          :default => ""
+    t.text     "description",                       :null => false
+    t.integer  "up_votes",          :default => 0,  :null => false
+    t.integer  "down_votes",        :default => 0,  :null => false
+    t.datetime "created_at",                        :null => false
+    t.datetime "updated_at",                        :null => false
   end
 
   add_index "tutorials", ["category_id"], :name => "index_tutorials_on_category_id"
+  add_index "tutorials", ["classification_id"], :name => "index_tutorials_on_classification_id"
   add_index "tutorials", ["user_id"], :name => "index_tutorials_on_user_id"
 
   create_table "users", :force => true do |t|
