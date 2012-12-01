@@ -28,12 +28,12 @@
   </div>
   <div class="control-group">
     <div class="form-fields">
-      <%= t.text_area :description, :class => "input-xlarge", :id => "txtarea-description", :style => "height: 500px; width: 698px" %>
+      <%= text_field_tag :category_name, params[:category_name], :class => "input-xlarge", :id => "categories", :placeholder => "Category *", :maxlength => 50, :style => "width: 50%" %>
     </div>
   </div>
   <div class="control-group">
     <div class="form-fields">
-      <%= t.select :category_id, Category.all.collect {|c| [ c.name, c.id ] }, :include_blank => 'Category *' %>
+      <%= t.text_area :description, :class => "input-xlarge", :id => "txtarea-description", :style => "height: 500px; width: 698px" %>
     </div>
   </div>
   <div class="form-actions">
@@ -54,5 +54,11 @@
     });
     $('#txtarea-description').popover("show");
 
+
+    $(function() {
+        $( "#categories" ).autocomplete({
+            source: "/category/list"
+        });
+    });
 
 </script>

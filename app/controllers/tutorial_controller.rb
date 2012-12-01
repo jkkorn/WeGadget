@@ -2,7 +2,7 @@ class TutorialController < ApplicationController
 
   def list_by_category
     @tutorials = Tutorial.find_all_by_category_id(params[:id], :order => 'up_votes DESC')
-                         .paginate(:page => params[:page], :per_page => 10)
+                         .paginate(:page => params[:page], :per_page => 15)
     render('list')
   end
 
@@ -32,9 +32,11 @@ class TutorialController < ApplicationController
 
   def create
     if user_signed_in?
+        @category = Category.find_by_name(params[:category_name])
         clear_description(params[:tutorial])
         @tutorial = Tutorial.new(params[:tutorial])
         @tutorial.user_id = current_user.id
+        @tutorial.category_id = @category.id
         if @tutorial.save
           redirect_to(:controller => 'welcome', :action => 'profile', :id => @tutorial.user.id)
         else

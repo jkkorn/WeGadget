@@ -8,24 +8,7 @@ class WelcomeController < ApplicationController
   def profile
     @user = User.find(params[:id])
     @tutorials = Tutorial.find_all_by_user_id(params[:id], :order => 'up_votes DESC')
-                         .paginate(:page => params[:page], :per_page => 10)
-  end
-
-  #Categorias que aparecem no dropdown
-  def categories
-    if params[:term]
-        categories = Category.where("upper(name) like ?", param_treaty)
-    else
-        categories = Category.all
-    end
-    list = categories.map {|c| Hash[ id: c.id, label: c.name, name: c.name ]}
-    render json: list
-  end
-
-  #Adicionando o like e o upcase ao param do search
-  def param_treaty
-    param_treaty = params[:term].upcase
-    "%".concat(param_treaty.concat("%"))
+                         .paginate(:page => params[:page], :per_page => 15)
   end
 
 end
