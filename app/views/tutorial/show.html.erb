@@ -1,15 +1,20 @@
 <%= render "wegadget/header" %>
 
 <div class="vote">
-    <%= link_to image_tag('arrow_up_32.png'), {:controller => "tutorial", :action => "up_vote", :id => @tutorial.id, :category_id => @tutorial.category.id} %><br/>
+    <%= link_to image_tag('arrow_up_32.png'), {:controller => "tutorial", :action => "up_vote", :id => @tutorial.id } %><br/>
     <span class="label label-inverse" style="color:white; padding: 11px;"><%= @tutorial.up_votes %></span><br/>
-    <%= link_to image_tag('arrow_down_32.png'), {:controller => "tutorial", :action => "down_vote", :id => @tutorial.id, :category_id => @tutorial.category.id} %>
+    <%= link_to image_tag('arrow_down_32.png'), {:controller => "tutorial", :action => "down_vote", :id => @tutorial.id } %>
 </div>
 
 <div class="tutorial">
 
         <h2 class="tutorial-title">
-            <%= @tutorial.title %>
+            <%= @tutorial.title %><br/>
+            <span class="tutorial-author">
+              By <%= link_to @tutorial.user.username, {:controller => "welcome", :action => "profile", :id => @tutorial.user.id}, :class => "brand"%>  |
+              <%= @tutorial.classification.name %>  |
+              Categories: <%= @tutorial.categories.map(&:name).join(", ") %>
+            </span>
         </h2>
 
         <span class="tutorial-subtitle">

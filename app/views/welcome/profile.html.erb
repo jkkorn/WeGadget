@@ -20,10 +20,11 @@
       <thead>
       <tr>
         <th class="header">Title</th>
+        <th class="header">Difficulty</th>
         <th class="hidden-phone header">
           <i class="icon-heart"></i>
         </th>
-        <th class="hidden-phone header">Category</th>
+        <th class="header">Categories</th>
         <th class="header">Created at</th>
       </tr>
       </thead>
@@ -37,9 +38,14 @@
               <%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id} %>
             </td>
             <td class="hidden-phone">
+              <span><%= t.classification.name %></span>
+            </td>
+            <td class="hidden-phone">
               <span class="label label-success myTooltip" style="color:white;"><%= t.up_votes %></span>
             </td>
-            <td class="hidden-phone"><%= t.category.name %></td>
+            <td>
+              <%= t.categories.map(&:name).join(", ") %>
+            </td>
             <td><%= t.created_at.to_formatted_s(:short) %></td>
       </tr>
   <% end %>

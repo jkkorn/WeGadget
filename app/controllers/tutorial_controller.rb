@@ -1,8 +1,8 @@
 class TutorialController < ApplicationController
 
   def list_by_category
-    @tutorials = Tutorial.find_all_by_category_id(params[:id], :order => 'up_votes DESC')
-                         .paginate(:page => params[:page], :per_page => 15)
+    @tutorials =  Tutorial.all(:include => :categories, :conditions => ["categories.id = ?", params[:id]], :order => 'up_votes DESC')
+                          .paginate(:page => params[:page], :per_page => 15)
     render('list')
   end
 
@@ -32,11 +32,14 @@ class TutorialController < ApplicationController
 
   def create
     if user_signed_in?
-        @category = Category.find_by_name(params[:category_name])
+        # Buscando categorias pelos nomes passados na tela
+        # gsub(/, /, ',') => Ex.: Helena, Maria, Carvalho, Freire => Helena,Maria,Carvalho,Freire --> remove whitespaces between commas
+        # split(",") => Ex.: "Helena, Maria, Carvalho, Freire" => ["Helena", "Maria", "Carvalho", "Freire"] --> String to Array
+        @categories = Category.find_by_sql ["SELECT * FROM categories where name in (?)", params[:categories_names].gsub(/, /, ',').split(",")]
         clear_description(params[:tutorial])
         @tutorial = Tutorial.new(params[:tutorial])
         @tutorial.user_id = current_user.id
-        @tutorial.category_id = @category.id
+        @tutorial.categories << @categories
         if @tutorial.save
           redirect_to(:controller => 'welcome', :action => 'profile', :id => @tutorial.user.id)
         else
@@ -53,6 +56,7 @@ class TutorialController < ApplicationController
 
   def clear_description(value)
     #Precisei fazer isso para funcionar o iframe do youtube.
+    #O gsub é um replace. Ele troca a primeira string pela segunda string.
     @new_description = value[:description].gsub('&lt;','<').gsub('&gt;','>')
     value[:description] = @new_description
   end

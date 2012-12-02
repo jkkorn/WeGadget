@@ -11,16 +11,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121201192725) do
+ActiveRecord::Schema.define(:version => 20121202003152) do
 
   create_table "categories", :force => true do |t|
-    t.integer  "category_id"
-    t.string   "name",        :default => "", :null => false
-    t.datetime "created_at",                  :null => false
-    t.datetime "updated_at",                  :null => false
+    t.string   "name",       :default => "", :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
   end
 
-  add_index "categories", ["category_id"], :name => "index_categories_on_category_id"
+  create_table "categories_tutorials", :id => false, :force => true do |t|
+    t.integer "category_id"
+    t.integer "tutorial_id"
+  end
+
+  add_index "categories_tutorials", ["category_id", "tutorial_id"], :name => "index_categories_tutorials_on_category_id_and_tutorial_id"
 
   create_table "classifications", :force => true do |t|
     t.string   "name",       :default => "", :null => false
@@ -42,9 +46,8 @@ ActiveRecord::Schema.define(:version => 20121201192725) do
   add_index "tags_tutorials", ["tag_id", "tutorial_id"], :name => "index_tags_tutorials_on_tag_id_and_tutorial_id"
 
   create_table "tutorials", :force => true do |t|
-    t.integer  "category_id"
-    t.integer  "classification_id"
     t.integer  "user_id"
+    t.integer  "classification_id"
     t.string   "title",             :default => "", :null => false
     t.string   "subtitle",          :default => ""
     t.text     "description",                       :null => false
@@ -54,7 +57,6 @@ ActiveRecord::Schema.define(:version => 20121201192725) do
     t.datetime "updated_at",                        :null => false
   end
 
-  add_index "tutorials", ["category_id"], :name => "index_tutorials_on_category_id"
   add_index "tutorials", ["classification_id"], :name => "index_tutorials_on_classification_id"
   add_index "tutorials", ["user_id"], :name => "index_tutorials_on_user_id"
 

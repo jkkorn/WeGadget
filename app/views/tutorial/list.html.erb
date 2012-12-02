@@ -16,7 +16,8 @@
   <% else %>
       <thead>
       <tr class="org-item">
-        <th></th>
+        <th class="header"><b>Title</b></th>
+        <th class="header"><b>Difficulty</b></th>
         <th class="hidden-phone header">
           <i class="icon-heart"></i>
         </th>
@@ -29,15 +30,12 @@
 <% @tutorials.each do |t| %>
 
 <tr class="org-item">
-  <td style="vertical-align: middle;">
-    <div class="org-item">
-      <span class="show-more">
-        <%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id} %>
-      </span>
-    </div>
+  <td><%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id} %></td>
+  <td>
+    <%= t.classification.name %>
   </td>
   <td class="hidden-phone">
-    <span class="label label-success" style="color:white;"><%= t.up_votes %></span><br/>
+    <span class="label label-success" style="color:white;"><%= t.up_votes %></span>
   </td>
 </tr>
 
