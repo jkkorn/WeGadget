@@ -17,15 +17,26 @@ form {
   margin: 0 0 5px!important;
 }
 
+.dig-din{
+  margin-left:auto;
+  margin-right:auto;
+  width:30%;
+}
 .search-input {
-  width: 467px;
+  /*width: 467px; */
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
   padding: 8px!important;
 }
 
 .align-search-input {
+
   padding-left: 40px;
   margin-left: 320px;
-}
+  margin-rigt: 320px;
+  vertical-align: middle;
+ }
 
 .trending-topics {
   font-family: Verdana!important;
@@ -44,7 +55,8 @@ form {
 }
 
 .lets-write-tutorial {
-  width: 440px!important;
+  /*width: 440px!important; */
+  width:30%;
   padding: 12px;
   margin-bottom: 20px;
 }

@@ -2,12 +2,18 @@
 
 <!-- Logo -->
 <%= image_tag('logo.png', :style => "margin: 11% 0% 0% 34%;") %>
+<div class =
 
 <!-- Campo texto para consulta -->
 <div class="align-search-input">
+
       <%= text_field_tag :search, params[:search], :class => "input-big search-input", :style => "margin-top: 10px", :id => "categories", :placeholder => "Search tutorials" %>
 </div>
 
+<div class="dig-din">
+      <h4> Learn to do epic shit with your gadgets</h4>
+
+</div>
 <!-- Tutoriais mais votados -->
 <ul class="align-trending-topics">
   <% @tutorials.each do |t| %>
