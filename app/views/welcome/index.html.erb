@@ -1,50 +1,36 @@
 <%= render "wegadget/header" %>
 
-<!-- Logo -->
-<%= image_tag('logo.png', :style => "margin: 11% 0% 0% 34%;") %>
-<div class =
 
-<!-- Campo texto para consulta -->
-<div class="align-search-input">
+<div class="items"></div>
+<div class="loader"></div>
 
-      <%= text_field_tag :search, params[:search], :class => "input-big search-input", :style => "margin-top: 10px", :id => "categories", :placeholder => "Search tutorials" %>
-</div>
+<script type="text/javascript">
 
-<div class="dig-din">
-      <h4> Learn to do epic shit with your gadgets</h4>
-
-</div>
-<!-- Tutoriais mais votados -->
-<ul class="align-trending-topics">
-  <% @tutorials.each do |t| %>
-    <li class="trending-topics">
-      <span class="date"><%= t.created_at.to_formatted_s(:short) %> » </span>
-      <%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id}, :class => "brand"%> -
-      <%= link_to t.user.username, {:controller => "welcome", :action => "profile", :id => t.user.id}, :class => "brand" %>
-    </li>
-  <% end %>
-</ul>
-
-<!-- Botão Lets write a tutorial -->
-<div class="align-lets-write-tutorial">
-
-  <%= form_for(:tutorial, :url => {:controller => 'tutorial', :action => 'new'}) do |t| %>
-      <%= t.submit "Let's write a tutorial", :class => "btn btn-primary lets-write-tutorial" %>
-  <% end %>
-
-</div>
-
-<script>
-    $(function() {
-        $( "#categories" ).autocomplete({
-            source: "/category/list",
-            select: function( event, ui ) {
-                $.ajax({
-                    success: function(data) {
-                        window.location.href = '/tutorial/list_by_category?id='+ui.item.id;
-                    }
-                });
+    $(function(){
+        var page = 1;
+        var qtdResults = 0;
+        $('.items').scrollPagination({
+            'contentPage': '/tutorial/list', // the url you are fetching the results
+            'contentData': {}, // these are the variables you can pass to the request, for example: children().size() to know which page you are
+            'scrollTarget': $(window), // who gonna scroll? in this example, the full window
+            'heightOffset': 10, // it gonna request when scroll is 10 pixels before the page ends
+            'beforeLoad': function(){ // before load function, you can display a preloader div
+                $('.loader').fadeIn();
+                qtdResults = $('.result').size(); //guarda em uma variavel a quantidade de divs com class 'result' antes de carregar novamente do banco.
+                if (page > 1){ this.contentPage = "/tutorial/list?page=" + page; }
+            },
+            'afterLoad': function(elementsLoaded){ // after loading content, you can use this function to animate your new elements
+                $('.loader').fadeOut();
+                $(elementsLoaded).fadeIn();
+                if (qtdResults != $('.result').size()) {
+                    page++;
+                }
+                if ($('.result').size() > 500) { // if more than 100 results already loaded, then stop pagination (only for testing)
+                    $('.items').stopScrollPagination();
+                }
             }
         });
+
     });
+
 </script>

@@ -1,66 +1,62 @@
 @import "bootstrap";
 
-::-webkit-input-placeholder {
-  font-size: 17px!important;
+.loader {
+  background: url(loader.gif) 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
 }
 
-:-moz-placeholder {
-  font-size: 17px!important;
+.result {
+  width: 346px;
+  float: left;
+  margin-left: 2px;
 }
 
-.date {
-  color: #333;
-  font-family: Monaco, "Courier New", monospace;
+.workstream-intro.global-trends {
+  border-top: solid 3px #5B8E87;
 }
 
-form {
-  margin: 0 0 5px!important;
+.global-trends, .workstream-intro {
+  background-color: #68A39B;
 }
 
-.dig-din{
-  margin-left:auto;
-  margin-right:auto;
-  width:30%;
-}
-.search-input {
-  /*width: 467px; */
-  width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 8px!important;
-}
-
-.align-search-input {
-
-  padding-left: 40px;
-  margin-left: 320px;
-  margin-rigt: 320px;
-  vertical-align: middle;
- }
-
-.trending-topics {
-  font-family: Verdana!important;
-  font-size: 11px;
-}
-
-.align-trending-topics {
-  margin-left: 28%;
-  list-style: none;
-}
-
-.align-lets-write-tutorial {
-  margin-left: 30%;
+.workstream-icon {
   position: absolute;
-  bottom: 0;
+  width: 56px;
+  height: 56px;
+  top: 18px;
+  left: 18px;
+  background: url(apple-48.png) 0 0 no-repeat;
+  text-indent: -999em;
 }
 
-.lets-write-tutorial {
-  /*width: 440px!important; */
-  width:30%;
-  padding: 12px;
-  margin-bottom: 20px;
+.workstream-intro {
+  position: relative;
+  padding: 20px 20px 60px 20px;
+  height: 155px;
+  margin: 0 0 2px 0;
 }
 
-.span9 {
-  width: 1000px!important;
+.workstream-intro p {
+  position: absolute;
+  top: 85px;
+  color: black;
+  border-top: dotted 1px white;
+  padding: 10px 0 0 0;
+  margin-right: 15px;
+  width: 310px;
+}
+
+.workstream-intro h2 {
+  font-family: 'ff-din-web-1', 'ff-din-web-2', Arial, Helvetica, sans-serif;
+  line-height: 17px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0 0 0 65px;
+  font-size: 15px;
+}
+
+.workstream-intro h2 a {
+  color: #262626;
+  text-decoration: none;
 }
