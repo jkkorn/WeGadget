@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require_tree
 //= require bootstrap
-//= require jquery-ui-1.9.2.custom
+//= require scrollpagination
+//= require nicEdit

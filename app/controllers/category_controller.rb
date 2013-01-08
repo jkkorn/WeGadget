@@ -1,6 +1,5 @@
 class CategoryController < ApplicationController
 
-
   #Categorias que aparecem no dropdown
   def list
     if params[:term]
@@ -17,6 +16,5 @@ class CategoryController < ApplicationController
     param_treaty = params[:term].upcase
     "%".concat(param_treaty.concat("%"))
   end
-
 
 end

@@ -1,8 +1,8 @@
 class TutorialController < ApplicationController
 
-  def list_by_category
-    @tutorials =  Tutorial.all(:include => :categories, :conditions => ["categories.id = ?", params[:id]], :order => 'up_votes DESC')
-                          .paginate(:page => params[:page], :per_page => 15)
+  # Tutoriais que aparecem na pagina principal
+  def list
+    @tutorials =  Tutorial.all(:order => 'up_votes DESC').paginate(:page => params[:page], :per_page => 10)
     render('list')
   end
 

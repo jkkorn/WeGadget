@@ -1,54 +1,13 @@
-<%= render "wegadget/header" %>
-
-
-<div class="row">
-<div class="span12">
-
-<table class="org-list" cellspacing="0" cellpadding="0">
-
-  <% if @tutorials.empty? %>
-      <div class="alert alert-info">
-            <h4 class="alert-heading">
-              No tutorials found in this category =( &nbsp;&nbsp;
-              <%= link_to 'Write a new one', {:controller => "tutorial", :action => "new"}, :class => "btn btn-primary" %>
-            </h4>
-      </div>
-  <% else %>
-      <thead>
-      <tr class="org-item">
-        <th class="header"><b>Title</b></th>
-        <th class="header"><b>Difficulty</b></th>
-        <th class="hidden-phone header">
-          <i class="icon-heart"></i>
-        </th>
-      </tr>
-      </thead>
-  <% end %>
-
-<tbody>
-
 <% @tutorials.each do |t| %>
 
-<tr class="org-item">
-  <td><%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id} %></td>
-  <td>
-    <%= t.classification.name %>
-  </td>
-  <td class="hidden-phone">
-    <span class="label label-success" style="color:white;"><%= t.up_votes %></span>
-  </td>
-</tr>
-
+<div class="result">
+    <div class="workstream-intro global-trends">
+        <%= link_to image_tag('apple-48.png'), {:controller => "tutorial", :action => "show", :id => t.id}, :class => "workstream-icon" %>
+        <h2>
+          <%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id} %><br>
+        </h2>
+        <p><%= t.subtitle %></p>
+    </div>
+</div>
 
 <% end %>
-
-</tbody>
-
-</table>
-
-<% if not @tutorials.empty? %>
-  <%= will_paginate @tutorials %>
-<% end %>
-
-</div>
-</div>
