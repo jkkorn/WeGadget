@@ -2,7 +2,7 @@ class TutorialController < ApplicationController
 
   # Tutoriais que aparecem na pagina principal
   def list
-    @tutorials =  Tutorial.all(:order => 'up_votes DESC').paginate(:page => params[:page], :per_page => 10)
+    @tutorials =  Tutorial.all(:order => 'up_votes DESC').paginate(:page => params[:page], :per_page => 12)
     render('list')
   end
 
@@ -31,27 +31,51 @@ class TutorialController < ApplicationController
   end
 
   def create
-    if user_signed_in?
-        # Buscando categorias pelos nomes passados na tela
-        # gsub(/, /, ',') => Ex.: Helena, Maria, Carvalho, Freire => Helena,Maria,Carvalho,Freire --> remove whitespaces between commas
-        # split(",") => Ex.: "Helena, Maria, Carvalho, Freire" => ["Helena", "Maria", "Carvalho", "Freire"] --> String to Array
-        @categories = Category.find_by_sql ["SELECT * FROM categories where name in (?)", params[:categories_names].gsub(/, /, ',').split(",")]
-        clear_description(params[:tutorial])
-        @tutorial = Tutorial.new(params[:tutorial])
-        @tutorial.user_id = current_user.id
-        @tutorial.categories << @categories
-        if @tutorial.save
-          redirect_to(:controller => 'welcome', :action => 'profile', :id => @tutorial.user.id)
-        else
-          render('new')
-        end
-    else
-      redirect_to(:controller => 'users', :action => 'sign_in')
-    end
+
+      # Buscando categorias pelos nomes passados na tela
+      # gsub(/, /, ',') => Ex.: Helena, Maria, Carvalho, Freire => Helena,Maria,Carvalho,Freire --> remove whitespaces between commas
+      # split(",") => Ex.: "Helena, Maria, Carvalho, Freire" => ["Helena", "Maria", "Carvalho", "Freire"] --> String to Array
+      @categories = Category.find_by_sql ["SELECT * FROM categories where name in (?)", params[:categories_names].gsub(/, /, ',').split(",")]
+      clear_description(params[:tutorial])
+      @tutorial = Tutorial.new(params[:tutorial])
+      @tutorial.user_id = rand(1...100)
+      @tutorial.categories << @categories
+
+      if @tutorial.save
+        redirect_to(:controller => 'welcome', :action => 'profile', :id => @tutorial.user.id)
+      else
+        render('new')
+      end
   end
 
   def show
     @tutorial = Tutorial.find(params[:id])
+  end
+
+  def create_random_users
+
+    File.open("script.txt", "w") do |f|
+
+        (1..100).each{|i|
+
+          insert = ""
+
+          o =  [('a'..'z')].map{|i| i.to_a}.flatten
+          username  =  (0...10).map{ o[rand(o.length)] }.join
+
+          pass = '123456'
+          pass_encrypt = BCrypt::Password.create(pass)
+
+          email = username+'@gmail.com'
+
+          insert = "INSERT INTO USERS VALUES ("
+          insert << i.to_s+",'"+email+"','"+pass_encrypt+"',0,0,null,null,null,null,current_date,current_date, '127.0.0.1', '127.0.0.1',current_date,current_date);"
+
+          f.write(insert+"\n")
+        }
+
+    end
+
   end
 
   def clear_description(value)

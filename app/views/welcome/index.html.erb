@@ -1,12 +1,79 @@
 <%= render "wegadget/header" %>
 
 
+<div>
+
+  <%= image_tag("phone_icon.jpg", :id => "imgGadget1", :width => "100px", :height => "100px", :class => "imgGadget1") %>
+  <input type="text" id="gadget1" placeholder="Type your gadget here..." class="txtGadget1"/>
+
+</div>
+
+<div>
+
+  <%= image_tag("phone_icon.jpg", :id => "imgGadget2", :width => "100px", :height => "100px", :class => "imgGadget2") %>
+  <input type="text" id="gadget2" placeholder="Type your gadget here..." class="txtGadget2"/>
+
+</div>
+
+<div>
+
+  <%= image_tag("phone_icon.jpg", :id => "imgGadget3", :width => "100px", :height => "100px", :class => "imgGadget3") %>
+  <input type="text" id="gadget3" placeholder="Type your gadget here..." class="txtGadget3"/>
+
+</div>
+
 <div class="items"></div>
 <div class="loader"></div>
 
 <script type="text/javascript">
 
+    /*  -----------------------   GOOGLE SEARCH IMAGE API ------------------------------------  */
+
     $(function(){
+
+        var principal = "https://www.googleapis.com/customsearch/v1?";
+        var keyGoogle = "AIzaSyBjCmHNmgYtzjImhQRDdD8uC5eDK9Uedhc";
+        var cx = "868056535109.apps.googleusercontent.com";
+
+        $('#gadget1').blur(function() {
+            $('.loader').fadeIn();
+            var queryGadget1 = $("#gadget1").val();
+            var call = principal+"key="+keyGoogle+"&cx="+cx+"&searchType=image&q="+queryGadget1;
+
+            $.getJSON(call, function(data) {
+                $('#imgGadget1').attr("src", data.items[0].link);
+            });
+            $('.loader').fadeOut();
+        });
+
+        $('#gadget2').blur(function() {
+            $('.loader').fadeIn();
+            var queryGadget2 = $("#gadget2").val();
+            var call = principal+"key="+keyGoogle+"&cx="+cx+"&searchType=image&q="+queryGadget2;
+
+            $.getJSON(call, function(data) {
+                $('#imgGadget2').attr("src", data.items[0].link);
+            });
+            $('.loader').fadeOut();
+        });
+
+        $('#gadget3').blur(function() {
+            $('.loader').fadeIn();
+            var queryGadget3 = $("#gadget3").val();
+            var call = principal+"key="+keyGoogle+"&cx="+cx+"&searchType=image&q="+queryGadget3;
+
+            $.getJSON(call, function(data) {
+                $('#imgGadget3').attr("src", data.items[0].link);
+            });
+            $('.loader').fadeOut();
+        });
+    });
+
+
+    /*  -----------------------   PAGINATION WITH SCROLL ------------------------------------  */
+
+    $(function(){
+        alert('entrei');
         var page = 1;
         var qtdResults = 0;
         $('.items').scrollPagination({
@@ -25,12 +92,26 @@
                 if (qtdResults != $('.result').size()) {
                     page++;
                 }
-                if ($('.result').size() > 500) { // if more than 100 results already loaded, then stop pagination (only for testing)
+                if ($('.result').size() > 500) { // if more than 500 results already loaded, then stop pagination (only for testing)
                     $('.items').stopScrollPagination();
                 }
             }
         });
 
+    });
+
+    /*  -----------------------   AUTOCOMPLETE WITH JQUERY UI ------------------------------------  */
+
+    $("#gadget1").autocomplete({
+        source: "/category/list"
+    });
+
+    $("#gadget2").autocomplete({
+        source: "/category/list"
+    });
+
+    $("#gadget3").autocomplete({
+        source: "/category/list"
     });
 
 </script>

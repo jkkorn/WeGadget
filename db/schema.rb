@@ -14,10 +14,13 @@
 ActiveRecord::Schema.define(:version => 20121202003152) do
 
   create_table "categories", :force => true do |t|
-    t.string   "name",       :default => "", :null => false
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
+    t.integer  "category_id"
+    t.string   "name",        :default => "", :null => false
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
   end
+
+  add_index "categories", ["category_id"], :name => "index_categories_on_category_id"
 
   create_table "categories_tutorials", :id => false, :force => true do |t|
     t.integer "category_id"

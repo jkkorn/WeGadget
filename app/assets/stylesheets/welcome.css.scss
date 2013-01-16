@@ -1,5 +1,46 @@
 @import "bootstrap";
 
+.imgGadget1 {
+  position: absolute;
+  top: 63px;
+  left: 93px;
+}
+
+.txtGadget1 {
+  position: absolute;
+  top: 175px;
+  left: 31px;
+}
+
+.imgGadget2 {
+  position: absolute;
+  top: 63px;
+  left: 312px;
+}
+
+.txtGadget2 {
+  position: absolute;
+  top: 175px;
+  left: 259px;
+}
+
+.imgGadget3 {
+  position: absolute;
+  top: 63px;
+  left: 541px;
+}
+
+.txtGadget3 {
+  position: absolute;
+  top: 175px;
+  left: 488px;
+}
+
+.items {
+  margin-top: 207px;
+  margin-left: 25px;
+}
+
 .loader {
   background: url(loader.gif) 0 0 no-repeat;
   width: 16px;
