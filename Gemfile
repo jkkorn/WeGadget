@@ -14,6 +14,10 @@ gem 'devise'
 #bootstrap twitter = css/js/afins...
 gem 'bootstrap-sass'
 
+#parse json response
+gem 'httparty'
+
+
 #Vote (like reddit)
 gem 'make_voteable'
 

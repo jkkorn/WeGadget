@@ -1,117 +1,85 @@
 <%= render "wegadget/header" %>
 
 
-<div>
+<%= image_tag("phone_icon.jpg", :id => "imgGadget", :width => "100px", :height => "100px", :class => "imgGadget") %>
+<input type="text" id="gadget" placeholder="Type your gadget here..." class="txtGadget"/>
 
-  <%= image_tag("phone_icon.jpg", :id => "imgGadget1", :width => "100px", :height => "100px", :class => "imgGadget1") %>
-  <input type="text" id="gadget1" placeholder="Type your gadget here..." class="txtGadget1"/>
-
-</div>
-
-<div>
-
-  <%= image_tag("phone_icon.jpg", :id => "imgGadget2", :width => "100px", :height => "100px", :class => "imgGadget2") %>
-  <input type="text" id="gadget2" placeholder="Type your gadget here..." class="txtGadget2"/>
-
-</div>
-
-<div>
-
-  <%= image_tag("phone_icon.jpg", :id => "imgGadget3", :width => "100px", :height => "100px", :class => "imgGadget3") %>
-  <input type="text" id="gadget3" placeholder="Type your gadget here..." class="txtGadget3"/>
-
-</div>
 
 <div class="items"></div>
 <div class="loader"></div>
 
 <script type="text/javascript">
 
-    /*  -----------------------   GOOGLE SEARCH IMAGE API ------------------------------------  */
+    scrollPagination(null);
 
-    $(function(){
+    /*  -----------------------   PAGINATION WITH SCROLL ------------------------------------  */
+
+    function scrollPagination(parameter) {
+
+        $(function(){
+
+            var page = 1;
+            var qtdResults = 0;
+            $('.items').scrollPagination({
+                'contentPage': '/tutorial/list', // the url you are fetching the results
+                'contentData': {}, // these are the variables you can pass to the request, for example: children().size() to know which page you are
+                'scrollTarget': $(window), // who gonna scroll? in this example, the full window
+                'heightOffset': 10, // it gonna request when scroll is 10 pixels before the page ends
+                'beforeLoad': function(){ // before load function, you can display a preloader div
+                    $('.loader').fadeIn();
+                    qtdResults = $('.result').size(); //guarda em uma variavel a quantidade de divs com class 'result' antes de carregar novamente do banco.
+                    var contentPage = '/tutorial/list';
+                    if (page > 1 && parameter != null){
+                        contentPage += "?page="+page+"&category_id="+parameter;
+                    }
+                    else if (page > 1) {
+                        contentPage += '?page='+page;
+                    }
+                    else if (parameter != null) {
+                        contentPage += '?category_id='+parameter;
+                    }
+                    this.contentPage = contentPage;
+                },
+                'afterLoad': function(elementsLoaded){ // after loading content, you can use this function to animate your new elements
+                    $('.loader').fadeOut();
+                    $(elementsLoaded).fadeIn();
+                    if (qtdResults != $('.result').size()) {
+                        page++;
+                    }
+                    if ($('.result').size() > 500) { // if more than 500 results already loaded, then stop pagination (only for testing)
+                        $('.items').stopScrollPagination();
+                    }
+                }
+            });
+        });
+
+    }
+
+    /*  -----------------------   AUTOCOMPLETE WITH JQUERY UI AND GOOGLE SEARCH IMAGE API ------------------------------------  */
+
+    $(function() {
 
         var principal = "https://www.googleapis.com/customsearch/v1?";
         var keyGoogle = "AIzaSyBjCmHNmgYtzjImhQRDdD8uC5eDK9Uedhc";
         var cx = "868056535109.apps.googleusercontent.com";
 
-        $('#gadget1').blur(function() {
-            $('.loader').fadeIn();
-            var queryGadget1 = $("#gadget1").val();
-            var call = principal+"key="+keyGoogle+"&cx="+cx+"&searchType=image&q="+queryGadget1;
-
-            $.getJSON(call, function(data) {
-                $('#imgGadget1').attr("src", data.items[0].link);
-            });
-            $('.loader').fadeOut();
-        });
-
-        $('#gadget2').blur(function() {
-            $('.loader').fadeIn();
-            var queryGadget2 = $("#gadget2").val();
-            var call = principal+"key="+keyGoogle+"&cx="+cx+"&searchType=image&q="+queryGadget2;
-
-            $.getJSON(call, function(data) {
-                $('#imgGadget2').attr("src", data.items[0].link);
-            });
-            $('.loader').fadeOut();
-        });
-
-        $('#gadget3').blur(function() {
-            $('.loader').fadeIn();
-            var queryGadget3 = $("#gadget3").val();
-            var call = principal+"key="+keyGoogle+"&cx="+cx+"&searchType=image&q="+queryGadget3;
-
-            $.getJSON(call, function(data) {
-                $('#imgGadget3').attr("src", data.items[0].link);
-            });
-            $('.loader').fadeOut();
-        });
-    });
-
-
-    /*  -----------------------   PAGINATION WITH SCROLL ------------------------------------  */
-
-    $(function(){
-        alert('entrei');
-        var page = 1;
-        var qtdResults = 0;
-        $('.items').scrollPagination({
-            'contentPage': '/tutorial/list', // the url you are fetching the results
-            'contentData': {}, // these are the variables you can pass to the request, for example: children().size() to know which page you are
-            'scrollTarget': $(window), // who gonna scroll? in this example, the full window
-            'heightOffset': 10, // it gonna request when scroll is 10 pixels before the page ends
-            'beforeLoad': function(){ // before load function, you can display a preloader div
-                $('.loader').fadeIn();
-                qtdResults = $('.result').size(); //guarda em uma variavel a quantidade de divs com class 'result' antes de carregar novamente do banco.
-                if (page > 1){ this.contentPage = "/tutorial/list?page=" + page; }
-            },
-            'afterLoad': function(elementsLoaded){ // after loading content, you can use this function to animate your new elements
-                $('.loader').fadeOut();
-                $(elementsLoaded).fadeIn();
-                if (qtdResults != $('.result').size()) {
-                    page++;
-                }
-                if ($('.result').size() > 500) { // if more than 500 results already loaded, then stop pagination (only for testing)
-                    $('.items').stopScrollPagination();
-                }
+        $( "#gadget" ).autocomplete({
+            source: "/category/list",
+            select: function( event, ui ) {
+                $.ajax({
+                    success: function(data) {
+                        var call = principal+"key="+keyGoogle+"&cx="+cx+"&searchType=image&q="+ui.item.name;
+                        $.getJSON(call, function(data) {
+                            $('#imgGadget').attr("src", "/assets/loader.gif");
+                            $('#imgGadget').attr("src", data.items[0].link);
+                        });
+                        $('.result').remove();
+                        scrollPagination(ui.item.id);
+                    }
+                });
             }
         });
 
-    });
-
-    /*  -----------------------   AUTOCOMPLETE WITH JQUERY UI ------------------------------------  */
-
-    $("#gadget1").autocomplete({
-        source: "/category/list"
-    });
-
-    $("#gadget2").autocomplete({
-        source: "/category/list"
-    });
-
-    $("#gadget3").autocomplete({
-        source: "/category/list"
     });
 
 </script>

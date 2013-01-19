@@ -1,13 +1,14 @@
 <% @tutorials.each do |t| %>
 
-<div class="result">
-    <div class="workstream-intro global-trends">
-        <%= link_to image_tag('apple-48.png'), {:controller => "tutorial", :action => "show", :id => t.id}, :class => "workstream-icon" %>
-        <h2>
-          <%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id} %><br>
-        </h2>
-        <p><%= t.subtitle %></p>
+    <div class="result">
+        <div class="pin">
+          <div class="pic">
+                <a href="#">
+                  <img src="<%= t.thumbnail %>">
+                </a>
+          </div>
+          <div class="text"><%= link_to t.title, {:controller => "tutorial", :action => "show", :id => t.id} %></div>
+        </div>
     </div>
-</div>
 
 <% end %>

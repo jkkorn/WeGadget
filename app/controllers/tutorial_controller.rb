@@ -2,8 +2,13 @@ class TutorialController < ApplicationController
 
   # Tutoriais que aparecem na pagina principal
   def list
-    @tutorials =  Tutorial.all(:order => 'up_votes DESC').paginate(:page => params[:page], :per_page => 12)
-    render('list')
+    if params["category_id"]
+        @tutorials = Tutorial.all(:joins => :categories,
+                                  :conditions => {:categories => {:id => params["category_id"]}})
+                             .paginate(:page => params[:page], :per_page => 12)
+    else
+      @tutorials =  Tutorial.all(:order => 'up_votes DESC').paginate(:page => params[:page], :per_page => 12)
+    end
   end
 
   def up_vote
