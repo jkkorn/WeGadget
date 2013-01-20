@@ -10,15 +10,13 @@
 
 <script type="text/javascript">
 
-    scrollPagination(null);
+    scrollPagination(null, 1);
 
     /*  -----------------------   PAGINATION WITH SCROLL ------------------------------------  */
 
-    function scrollPagination(parameter) {
+    function scrollPagination(parameter, page) {
 
         $(function(){
-
-            var page = 1;
             var qtdResults = 0;
             $('.items').scrollPagination({
                 'contentPage': '/tutorial/list', // the url you are fetching the results
@@ -70,11 +68,10 @@
                     success: function(data) {
                         var call = principal+"key="+keyGoogle+"&cx="+cx+"&searchType=image&q="+ui.item.name;
                         $.getJSON(call, function(data) {
-                            $('#imgGadget').attr("src", "/assets/loader.gif");
                             $('#imgGadget').attr("src", data.items[0].link);
                         });
                         $('.result').remove();
-                        scrollPagination(ui.item.id);
+                        scrollPagination(ui.item.id, 1);
                     }
                 });
             }
