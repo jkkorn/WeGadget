@@ -1,19 +1,15 @@
 @import "bootstrap";
 
-.imgGadget {
-  position: absolute;
-  top: 63px;
-  left: 93px;
-}
-
-.txtGadget {
-  position: absolute;
-  top: 175px;
-  left: 31px;
+.search-input {
+  width: 37%;
+  padding-left: 40px;
+  margin-left: 345px;
+  margin-rigt: 320px;
+  vertical-align: middle;
 }
 
 .items {
-  margin-top: 207px;
+  margin-top: 20px;
   margin-left: 25px;
 }
 

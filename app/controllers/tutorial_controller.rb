@@ -5,9 +5,9 @@ class TutorialController < ApplicationController
     if params["category_id"]
         @tutorials = Tutorial.all(:joins => :categories,
                                   :conditions => {:categories => {:id => params["category_id"]}})
-                             .paginate(:page => params[:page], :per_page => 10)
+                             .paginate(:page => params[:page], :per_page => 20)
     else
-        @tutorials =  Tutorial.all(:order => 'up_votes DESC').paginate(:page => params[:page], :per_page => 10)
+        @tutorials =  Tutorial.all(:order => 'up_votes DESC').paginate(:page => params[:page], :per_page => 20)
     end
   end
 
@@ -92,12 +92,12 @@ class TutorialController < ApplicationController
           insert = ""
 
           o =  [('a'..'z'),('A'..'Z')].map{|i| i.to_a}.flatten
-          title  =  (0...10).map{ o[rand(o.length)] }.join
           subtitle  =  (0...15).map{ o[rand(o.length)] }.join
           text  =  (0...50).map{ o[rand(o.length)] }.join
 
           user_id = rand(1...100)
           category_id = rand(1...2)
+          title = "teste"+i.to_s
 
           insert = "INSERT INTO TUTORIALS VALUES ("
           insert << i.to_s+","+user_id.to_s+",1,'"+title+"','"+subtitle+"','"+text+"',0,0,current_date,current_date);"

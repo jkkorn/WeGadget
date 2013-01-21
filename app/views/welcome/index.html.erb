@@ -1,8 +1,7 @@
 <%= render "wegadget/header" %>
 
 
-<%= image_tag("phone_icon.jpg", :id => "imgGadget", :width => "100px", :height => "100px", :class => "imgGadget") %>
-<input type="text" id="gadget" placeholder="Type your gadget here..." class="txtGadget"/>
+<input type="text" id="gadget" placeholder="Type your gadget here..." class="input-big search-input" />
 
 
 <div class="items"></div>
@@ -22,7 +21,7 @@
                 'contentPage': '/tutorial/list', // the url you are fetching the results
                 'contentData': {}, // these are the variables you can pass to the request, for example: children().size() to know which page you are
                 'scrollTarget': $(window), // who gonna scroll? in this example, the full window
-                'heightOffset': 10, // it gonna request when scroll is 10 pixels before the page ends
+                'heightOffset': 500, // it gonna request when scroll is 500 pixels before the page ends
                 'beforeLoad': function(){ // before load function, you can display a preloader div
                     $('.loader').fadeIn();
                     qtdResults = $('.result').size(); //guarda em uma variavel a quantidade de divs com class 'result' antes de carregar novamente do banco.
@@ -66,10 +65,10 @@
             select: function( event, ui ) {
                 $.ajax({
                     success: function(data) {
-                        var call = principal+"key="+keyGoogle+"&cx="+cx+"&searchType=image&q="+ui.item.name;
-                        $.getJSON(call, function(data) {
-                            $('#imgGadget').attr("src", data.items[0].link);
-                        });
+//                        var call = principal+"key="+keyGoogle+"&cx="+cx+"&searchType=image&q="+ui.item.name;
+//                        $.getJSON(call, function(data) {
+//                            $('#imgGadget').attr("src", data.items[0].link);
+//                        });
                         $('.result').remove();
                         scrollPagination(ui.item.id, 1);
                     }
