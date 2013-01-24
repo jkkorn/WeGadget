@@ -1,0 +1,12 @@
+DROP TABLE categories;
+DROP TABLE categories_tutorials;
+DROP TABLE classifications;
+DROP TABLE schema_migrations;
+DROP TABLE tags;
+DROP TABLE tags_tutorials;
+DROP TABLE tutorials;
+DROP TABLE users;
+DROP TABLE votings;
+
+
+--Apos rodar esse script, executar 'rake db:migrate'

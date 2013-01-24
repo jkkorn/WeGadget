@@ -1,0 +1,4676 @@
+INSERT INTO CATEGORIES VALUES (1,null,'2KSports
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2,null,'3COM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (3,null,'3M
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (4,null,'4mm Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (5,null,'ABA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (6,null,'ABTPlus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (7,null,'Accurate
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (8,null,'ACER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (9,null,'Acro Circle
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (10,null,'Adata
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (11,null,'ADMTEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (12,null,'ADVANCE LOGIC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (13,null,'ADVANTEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (14,null,'AFA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (15,null,'AGF
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (16,null,'Ahead Software AG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (17,null,'AIM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (18,null,'Airis
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (19,null,'Airon Flex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (20,null,'Aksys Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (21,null,'Alcatel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (22,null,'Alfacell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (23,null,'Allcard
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (24,null,'Allprint
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (25,null,'ALPS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (26,null,'Amazon PC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (27,null,'AMD
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (28,null,'AMK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (29,null,'ANGULAR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (30,null,'AOC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (31,null,'AP-Router
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (32,null,'Apevia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (33,null,'Apollo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (34,null,'Aquarius
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (35,null,'ARES
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (36,null,'Arima Lasers
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (37,null,'ARTIC SILVER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (38,null,'ASCaron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (39,null,'Aspex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (40,null,'Astone
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (41,null,'ATARI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (42,null,'Atheros
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (43,null,'Atlus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (44,null,'ATRIUM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (45,null,'AUDITEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (46,null,'Autentic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (47,null,'Avalon Style Entertainment
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (48,null,'Aver Media
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (49,null,'Avexir
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (50,null,'AVM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (51,null,'AXLE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (52,null,'AZZA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (53,null,'Bainian Kaerlong
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (54,null,'BandRich
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (55,null,'BASF
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (56,null,'BEALL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (57,null,'BENQ
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (58,null,'Best Flow
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (59,null,'Bethovatim
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (60,null,'Big Huge Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (61,null,'Biostar Taiwan
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (62,null,'Bitdefender
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (63,null,'BlackBerry
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (64,null,'Blitz Games Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (65,null,'Bluedio
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (66,null,'BOE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (67,null,'Bonpack
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (68,null,'Bose
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (69,null,'Branco
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (70,null,'BRAVIEW
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (71,null,'Brother
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (72,null,'Buffalo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (73,null,'Bytecc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (74,null,'Cables Unlimited
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (75,null,'Can Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (76,null,'Capcom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (77,null,'CARTONA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (78,null,'Casemall
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (79,null,'Cat Daddy Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (80,null,'CD PROJECTS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (81,null,'Cegasa Motion Energy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (82,null,'Center Paper
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (83,null,'CHAINTECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (84,null,'CHEMBRO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (85,null,'CHIES
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (86,null,'Chip Claro
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (87,null,'Chronos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (88,null,'CIS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (89,null,'CITEX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (90,null,'Clear
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (91,null,'Clio Style
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (92,null,'CMC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (93,null,'CNet
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (94,null,'Coby
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (95,null,'COLORFULL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (96,null,'Commscope
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (97,null,'COMTAC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (98,null,'Concord
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (99,null,'Conex X
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (100,null,'Connect3D
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (101,null,'Coonix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (102,null,'Core Design
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (103,null,'Corsair Microsystem
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (104,null,'CQ
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (105,null,'CREATY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (106,null,'CRUCIAL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (107,null,'CTA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (108,null,'CyberCooler
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (109,null,'D Camp
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (110,null,'D-Link systems
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (111,null,'Da-Lite
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (112,null,'DANE-ELEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (113,null,'Dark Fox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (114,null,'Data Jet
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (115,null,'Datalink
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (116,null,'DATAS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (117,null,'Datatri
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (118,null,'Dazz
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (119,null,'Deep Sea
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (120,null,'Delkin Devices
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (121,null,'Delta
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (122,null,'DeviceLogics
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (123,null,'DFI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (124,null,'Diebold
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (125,null,'Digisat
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (126,null,'DIGITAL CONCEPTS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (127,null,'Digital Persona
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (128,null,'DIGITEL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (129,null,'Disney Interactive Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (130,null,'DL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (131,null,'DNA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (132,null,'DOTCOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (133,null,'Dr. Battery
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (134,null,'DRUCKE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (135,null,'DTC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (136,null,'Durabook
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (137,null,'DXG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (138,null,'DYNAPOINT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (139,null,'E-Book Reader
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (140,null,'E3Good Electronic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (141,null,'Earset
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (142,null,'EasyN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (143,null,'ECLIPSE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (144,null,'Ecologic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (145,null,'ECS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (146,null,'EDIFIER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (147,null,'EFFICIENTE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (148,null,'Eilondo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (149,null,'Elemental Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (150,null,'ELG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (151,null,'ELLCOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (152,null,'ELPIDA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (153,null,'EMIX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (154,null,'ENCORE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (155,null,'Energy Lux
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (156,null,'EnGenius
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (157,null,'Ensemble Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (158,null,'Epaper
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (159,null,'EPOX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (160,null,'Esi
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (161,null,'EUDAR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (162,null,'EUROTECHNOLOGIE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (163,null,'EVERGLIDE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (164,null,'Evolute
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (165,null,'EXAIR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (166,null,'EXGA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (167,null,'EXTRALIFE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (168,null,'EZCool
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (169,null,'F3
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (170,null,'Facislito
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (171,null,'Fargo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (172,null,'FASTWIN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (173,null,'Feel Eletronics
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (174,null,'Fibersul
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (175,null,'Filipaper
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (176,null,'FIRECOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (177,null,'FLASHDISK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (178,null,'FlexByte
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (179,null,'Focusrite
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (180,null,'Forsa
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (181,null,'Fox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (182,null,'Free Radical Design
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (183,null,'Frogwares
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (184,null,'FRT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (185,null,'FUJIFILM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (186,null,'Funton
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (187,null,'FVN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (188,null,'G-Vision
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (189,null,'GAINWARD
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (190,null,'Game Freak
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (191,null,'Gamer
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (192,null,'Gateway/Acer
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (193,null,'Gdoor Sistemas
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (194,null,'GEIL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (195,null,'Genno
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (196,null,'GERTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (197,null,'GIGABYTE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (198,null,'Glacial Stars
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (199,null,'GlobalFast
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (200,null,'Goal
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (201,null,'GoldDisc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (202,null,'GoldPoint
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (203,null,'GP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (204,null,'Grandstream
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (205,null,'Greddy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (206,null,'Grisoft
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (207,null,'GTS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (208,null,'Guerilla
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (209,null,'HANDY TECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (210,null,'Hantol
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (211,null,'Hard Line
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (212,null,'Haurtian Wire e Cable Co Ltd
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (213,null,'Haze Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (214,null,'Headstrong Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (215,null,'Hellermann
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (216,null,'Hi-Capacity
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (217,null,'HI-TOP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (218,null,'HighMark
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (219,null,'Higmedia Digital
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (220,null,'Hip Street
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (221,null,'Hitoy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (222,null,'Holide
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (223,null,'Hori
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (224,null,'HP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (225,null,'HS HTPC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (226,null,'HTC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (227,null,'HUBER+SUHNER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (228,null,'Hurricane
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (229,null,'HYPERDRIVE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (230,null,'HYS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (231,null,'I-Touch
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (232,null,'IBM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (233,null,'ICY Dock
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (234,null,'Idea Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (235,null,'IDP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (236,null,'iGoodlo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (237,null,'Ikross
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (238,null,'IMBP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (239,null,'IMPLASTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (240,null,'Incog Inc.
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (241,null,'InFocus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (242,null,'Infoscape
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (243,null,'Ink Cartridge
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (244,null,'INKAS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (245,null,'Innocube
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (246,null,'Insomniac Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (247,null,'Intelbras
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (248,null,'Interalia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (249,null,'INTRON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (250,null,'Ion Audio
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (251,null,'iPlayers
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (252,null,'Iscon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (253,null,'IVO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (254,null,'JBL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (255,null,'JETLINE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (256,null,'Jisco
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (257,null,'JUSTMOLD
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (258,null,'K-A-H
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (259,null,'Kairos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (260,null,'Kaser
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (261,null,'KBYTE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (262,null,'Kenko
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (263,null,'Keylink
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (264,null,'Kiform
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (265,null,'Kingbox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (266,null,'KINGSTON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (267,null,'Kitatek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (268,null,'Klip Xtreme
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (269,null,'Kodo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (270,null,'Konami Digital Entertainment
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (271,null,'Konik
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (272,null,'KOUWELL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (273,null,'Krazer
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (274,null,'KRONE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (275,null,'KT Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (276,null,'KWORLD
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (277,null,'L&H
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (278,null,'LAICOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (279,null,'Lanchiya
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (280,null,'Lavie
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (281,null,'LD
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (282,null,'LEADERSHIP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (283,null,'Led Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (284,null,'LENOVO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (285,null,'Level Up Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (286,null,'LEXMARK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (287,null,'LG-Nortel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (288,null,'LIBERTY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (289,null,'LIFEVIEW
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (290,null,'LINKSYS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (291,null,'Livcom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (292,null,'Login
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (293,null,'LONGTEEN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (294,null,'LSI Logic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (295,null,'LUCENT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (296,null,'M-Audio
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (297,null,'Macrocabos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (298,null,'Mad Doc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (299,null,'MAGIC BAR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (300,null,'Maituo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (301,null,'Manhattan
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (302,null,'Markvision
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (303,null,'Master Connect
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (304,null,'Matrix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (305,null,'Max-Color
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (306,null,'Maxis
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (307,null,'MaxPower
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (308,null,'Maxx Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (309,null,'MC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (310,null,'MDH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (311,null,'MECER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (312,null,'MEGA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (313,null,'MegaCampos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (314,null,'Megamidia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (315,null,'Megatron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (316,null,'MEMOREX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (317,null,'MENNO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (318,null,'MERITLINE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (319,null,'METROLOGIC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (320,null,'MGE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (321,null,'Micro CPU Athlon64
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (322,null,'Micro CPU Core 2 Quad
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (323,null,'Micro CPU Fusion
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (324,null,'Micro CPU Pentium D
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (325,null,'Micro CPU Sempron64
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (326,null,'Microboard
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (327,null,'Microfin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (328,null,'MICRON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (329,null,'Microsol/APC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (330,null,'Microtek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (331,null,'Midi
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (332,null,'Mikrotik
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (333,null,'MindTech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (334,null,'MIRAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (335,null,'MITSUMI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (336,null,'MixLaser
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (337,null,'MobiBLU
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (338,null,'MODECOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (339,null,'Monterey
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (340,null,'Mosaico
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (341,null,'MOTOROLA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (342,null,'MPIO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (343,null,'Mr Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (344,null,'MTO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (345,null,'MultiCraft Eletronics
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (346,null,'MULTITECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (347,null,'Multview
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (348,null,'MXA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (349,null,'MY FLASH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (350,null,'Mythic Entertainment
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (351,null,'Nagasy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (352,null,'Namco
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (353,null,'Nardelli
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (354,null,'Navcity
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (355,null,'Nazda
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (356,null,'NDS TT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (357,null,'Neocam
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (358,null,'Neox/Gatewell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (359,null,'NETGATE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (360,null,'NETODRAGON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (361,null,'Neversoft Interactive
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (362,null,'New Link
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (363,null,'Nework
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (364,null,'Next Level Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (365,null,'NHS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (366,null,'Ninja Theory
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (367,null,'Nitere
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (368,null,'Nobre Cell Acess�rios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (369,null,'Nonus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (370,null,'Notecel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (371,null,'NOVELL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (372,null,'nPower
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (373,null,'Nvidia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (374,null,'O.S. (Ofsol)
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (375,null,'OCZ
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (376,null,'Okidata
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (377,null,'OLYMPUS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (378,null,'Onda
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (379,null,'OPTi Inc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (380,null,'OPTODIGITAL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (381,null,'Oracle
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (382,null,'Oro PC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (383,null,'Oxy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (384,null,'Pacific Design
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (385,null,'PALM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (386,null,'Panda Software
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (387,null,'PANTON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (388,null,'PAULIMAQ
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (389,null,'PC Tools
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (390,null,'PCT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (391,null,'PCWare/Mega
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (392,null,'Pegasus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (393,null,'PENGO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (394,null,'Perto
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (395,null,'Phenom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (396,null,'PHILIPS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (397,null,'Phoenix Audio
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (398,null,'PIMACO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (399,null,'Piranha Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (400,null,'Pixelti
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (401,null,'Planalto
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (402,null,'Plantinum
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (403,null,'Plastic Reality Technologies
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (404,null,'Play Control
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (405,null,'Pleomax - Samsung
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (406,null,'Plus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (407,null,'PNY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (408,null,'POLAROID
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (409,null,'POLYVOLT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (410,null,'PORTARE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (411,null,'Power Strike
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (412,null,'POWERDISC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (413,null,'POWERMAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (414,null,'PPA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (415,null,'PRECISION
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (416,null,'Primera
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (417,null,'Print Labs
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (418,null,'PRINTLIFE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (419,null,'Prodigy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (420,null,'PROLINK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (421,null,'Promundo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (422,null,'Protection
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (423,null,'Psyclone
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (424,null,'Pyramid
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (425,null,'Qbox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (426,null,'Qtec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (427,null,'Quanta
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (428,null,'QuickConnect
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (429,null,'R4
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (430,null,'RaidMax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (431,null,'Raven Software
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (432,null,'RCA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (433,null,'REC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (434,null,'Redcomsys
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (435,null,'Reflections
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (436,null,'Reliza
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (437,null,'REPORT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (438,null,'Ricoh
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (439,null,'RIPASA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (440,null,'Roadstar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (441,null,'Rocket
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (442,null,'ROJ
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (443,null,'ROXIO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (444,null,'RXP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (445,null,'S-XBS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (446,null,'SACT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (447,null,'Sager
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (448,null,'Sansonite
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (449,null,'Sanyo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (450,null,'Sapphiretech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (451,null,'Scud
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (452,null,'SEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (453,null,'Seg
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (454,null,'Sensient
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (455,null,'Seykon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (456,null,'ShenZhen BCT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (457,null,'ShowCam Security Systems
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (458,null,'Shuttle
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (459,null,'SIEMENS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (460,null,'SIIG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (461,null,'Silver
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (462,null,'SIMPLETECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (463,null,'SIPADUTO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (464,null,'SIX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (465,null,'Skill
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (466,null,'Skullcandy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (467,null,'Skypix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (468,null,'Smart
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (469,null,'Smart Lan
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (470,null,'Smarti Eletronic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (471,null,'Snapall
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (472,null,'SOL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (473,null,'SOLTEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (474,null,'Songa
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (475,null,'Sony Ericsson
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (476,null,'SouthPeak Interactive
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (477,null,'Spacetech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (478,null,'Speck
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (479,null,'Speed-Link
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (480,null,'Square Enix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (481,null,'Star
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (482,null,'STARTECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (483,null,'STH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (484,null,'Stod
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (485,null,'Strontium Technology
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (486,null,'Suiya
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (487,null,'Sunbeam
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (488,null,'SunWin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (489,null,'SUPER FLASH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (490,null,'SUPERCASE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (491,null,'Supertech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (492,null,'SupRam
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (493,null,'SVI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (494,null,'Swit
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (495,null,'SYLVANIA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (496,null,'SYNCMAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (497,null,'Sysfar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (498,null,'Tagoss
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (499,null,'Tantrix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (500,null,'TDK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (501,null,'Team17
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (502,null,'Tech One
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (503,null,'Technicolor
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (504,null,'Tecmo Koei
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (505,null,'TecnoWorld
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (506,null,'TecVoz
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (507,null,'TELCON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (508,null,'Telltale Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (509,null,'TERATECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (510,null,'TEXTEL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (511,null,'THERMALRIGHT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (512,null,'Thonet e Vander
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (513,null,'Tiger Digital
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (514,null,'TMTC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (515,null,'Top Cabos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (516,null,'TopData
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (517,null,'Topsel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (518,null,'Torus Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (519,null,'Tozz
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (520,null,'TRANSCEND
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (521,null,'TRDA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (522,null,'TREO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (523,null,'TRIDENT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (524,null,'Trix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (525,null,'Trump
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (526,null,'TS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (527,null,'TT INTL HK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (528,null,'TW Universal
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (529,null,'TYAN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (530,null,'UDisk
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (531,null,'Ubisoft
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (532,null,'ULTRABRITE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (533,null,'UNICELL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (534,null,'Unitech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (535,null,'UPSON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (536,null,'USA Plus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (537,null,'V Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (538,null,'Vaic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (539,null,'VALUE PLUS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (540,null,'VAT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (541,null,'VCOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (542,null,'Vector
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (543,null,'Velbon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (544,null,'VERBATIM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (545,null,'Veteke
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (546,null,'VIA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (547,null,'Videloar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (548,null,'View Security
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (549,null,'Vigil Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (550,null,'VIPOWER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (551,null,'Vista Tecnologia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (552,null,'VIVITAR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (553,null,'VMAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (554,null,'Vonets
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (555,null,'Voyager
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (556,null,'VSTAR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (557,null,'VuPoint Solutions
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (558,null,'Warner Bros. Interactive
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (559,null,'WAYTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (560,null,'Westcores
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (561,null,'White
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (562,null,'WiFiSKY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (563,null,'Winbond
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (564,null,'WinPdv
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (565,null,'WMDL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (566,null,'WPOWER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (567,null,'X Concept
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (568,null,'X-Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (569,null,'X4-TECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (570,null,'XAVI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (571,null,'XFX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (572,null,'XP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (573,null,'XTA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (574,null,'XtremeMac
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (575,null,'Yamaha
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (576,null,'YiNs
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (577,null,'YUNG FU
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (578,null,'Zalman
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (579,null,'ZIGA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (580,null,'Zionix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (581,null,'Zirok
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (582,null,'Zoo Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (583,null,'Zotac
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (584,null,'ZYNET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (585,null,'2k Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (586,null,'2RM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (587,null,'3DLABS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (588,null,'3R System
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (589,null,'505 Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (590,null,'ABIT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (591,null,'Ac Plus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (592,null,'Ace Mobile
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (593,null,'ACHIEVE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (594,null,'ACT Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (595,null,'ADDA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (596,null,'Adobe
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (597,null,'ADVANCED
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (598,null,'AENEON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (599,null,'AFREEY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (600,null,'AGFA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (601,null,'Aike
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (602,null,'Aiox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (603,null,'AIRLINK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (604,null,'AKASA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (605,null,'Aladdin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (606,null,'Aldo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (607,null,'Alhva
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (608,null,'ALLFORM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (609,null,'ALLTRONICS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (610,null,'AMARAY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (611,null,'Amazona
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (612,null,'American Bird Quasar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (613,null,'AMP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (614,null,'ANTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (615,null,'Aone
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (616,null,'APACER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (617,null,'Apex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (618,null,'Apontador GPS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (619,null,'Arc System Work
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (620,null,'ARGOSY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (621,null,'ARITA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (622,null,'Artsat
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (623,null,'Asint
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (624,null,'ASROCK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (625,null,'ASUS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (626,null,'ATEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (627,null,'ATI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (628,null,'ATM Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (629,null,'Attos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (630,null,'AUM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (631,null,'Autodesk
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (632,null,'AVANT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (633,null,'Averatec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (634,null,'AVG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (635,null,'Avocent
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (636,null,'Axper
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (637,null,'B2B Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (638,null,'Baixing
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (639,null,'Bannco
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (640,null,'Basic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (641,null,'Belden
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (642,null,'Best
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (643,null,'BESTCOOLER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (644,null,'Betria
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (645,null,'BigFish Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (646,null,'Bioware
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (647,null,'Bitway Computadores
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (648,null,'BlackmagicDesign
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (649,null,'Blizzard
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (650,null,'Bluefin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (651,null,'BOEDER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (652,null,'Booster
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (653,null,'Boyu
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (654,null,'Brasforma
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (655,null,'Bravus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (656,null,'BRU
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (657,null,'Bulkink
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (658,null,'C-Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (659,null,'Cabletech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (660,null,'Canal Laser
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (661,null,'Capte
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (662,null,'Cartridge Line
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (663,null,'Casetek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (664,null,'CCE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (665,null,'CDEX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (666,null,'Cellution
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (667,null,'Centon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (668,null,'Chamex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (669,null,'CHENBRO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (670,null,'Chieve
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (671,null,'Chip Oi
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (672,null,'Chunghwa
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (673,null,'CIS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (674,null,'Citrox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (675,null,'Click Automatizadores
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (676,null,'CLONE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (677,null,'Cmedia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (678,null,'COB
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (679,null,'Codemasters
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (680,null,'COMCAD
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (681,null,'COMPAQ
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (682,null,'Comtex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (683,null,'Conducab
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (684,null,'CONEXANT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (685,null,'Connecta
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (686,null,'COP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (687,null,'COREGA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (688,null,'Cortiarte
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (689,null,'Crave
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (690,null,'Cristal
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (691,null,'Cryptonix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (692,null,'CTECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (693,null,'CYBERDRIVE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (694,null,'Djadore
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (695,null,'D-Net
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (696,null,'Daewoo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (697,null,'Daneva
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (698,null,'Darkworks
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (699,null,'Data Set
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (700,null,'Datamax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (701,null,'DATASET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (702,null,'DATAVISION
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (703,null,'DBroth
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (704,null,'Deep Silver
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (705,null,'DELL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (706,null,'Delta Energy Systems
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (707,null,'Dexcom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (708,null,'Di Quan
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (709,null,'Digidesign
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (710,null,'Digiscan
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (711,null,'Digital Extremes
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (712,null,'Digital Player
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (713,null,'Digitron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (714,null,'Divoom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (715,null,'DLO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (716,null,'DNS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (717,null,'Double Fine Productions, Inc.
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (718,null,'Dracon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (719,null,'DsLink
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (720,null,'Dtech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (721,null,'DURACELL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (722,null,'Dynacom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (723,null,'Dynapos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (724,null,'E-Max
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (725,null,'EA - Electronic Arts
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (726,null,'EARTHQUAKE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (727,null,'Eaton
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (728,null,'Eclipse
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (729,null,'Ecomania
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (730,null,'ECS Elitegroup
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (731,null,'EDIMAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (732,null,'EGITAL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (733,null,'Ekotech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (734,null,'Elenos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (735,null,'ELGIN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (736,null,'Ellos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (737,null,'Elsys
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (738,null,'Empire
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (739,null,'energia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (740,null,'Energy Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (741,null,'Engetron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (742,null,'EnVision
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (743,null,'EPC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (744,null,'EPSON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (745,null,'ESN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (746,null,'Euro
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (747,null,'Eutechnyx
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (748,null,'EVERPOWER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (749,null,'Evolution Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (750,null,'Exatronic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (751,null,'EXIGO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (752,null,'Extream
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (753,null,'EZONIC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (754,null,'Faber-Castell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (755,null,'FAN HUNG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (756,null,'FarSight Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (757,null,'Faxfilm
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (758,null,'Felitron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (759,null,'FIC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (760,null,'Filizola
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (761,null,'FireMax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (762,null,'Flashtrack
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (763,null,'FlexPort
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (764,null,'Fony
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (765,null,'Fortrek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (766,null,'Fox New
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (767,null,'Freecom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (768,null,'From Software
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (769,null,'FSP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (770,null,'Fujilink
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (771,null,'FURUKAWA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (772,null,'G Data
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (773,null,'Gadmei
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (774,null,'GALAXY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (775,null,'Game Republic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (776,null,'Garmin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (777,null,'Gatewell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (778,null,'GE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (779,null,'GEMAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (780,null,'Geovision
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (781,null,'GetPower
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (782,null,'GIGARAM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (783,null,'GlacialTech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (784,null,'GlobalTronic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (785,null,'Goigame
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (786,null,'GOLDEN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (787,null,'GOLDSHIP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (788,null,'GP Cabos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (789,null,'Grasshopper
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (790,null,'GRIFFIN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (791,null,'GT Sound
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (792,null,'GTS Telecom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (793,null,'Gugov
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (794,null,'Hanns G
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (795,null,'Haowei
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (796,null,'Harman Kardon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (797,null,'Hawking
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (798,null,'HBS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (799,null,'Hec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (800,null,'Hepso
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (801,null,'Hi-Disc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (802,null,'High Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (803,null,'Highmedia Digital
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (804,null,'Hikari
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (805,null,'Hipro
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (806,null,'Hitto
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (807,null,'Honeywell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (808,null,'HOTBRICK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (809,null,'HPC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (810,null,'HS Play Hard
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (811,null,'HTL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (812,null,'Hudson
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (813,null,'HW11
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (814,null,'Hyperlink
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (815,null,'HYUNDAI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (816,null,'I/O Magic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (817,null,'Icc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (818,null,'ICY Docy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (819,null,'Ideal
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (820,null,'Iemex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (821,null,'iHip
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (822,null,'Ilike
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (823,null,'IMicro
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (824,null,'IMPRIMAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (825,null,'Incognito
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (826,null,'INFODISC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (827,null,'Ingenico
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (828,null,'Ink Gross
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (829,null,'Inktec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (830,null,'INNOVISION
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (831,null,'INTCOMEX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (832,null,'Intelidata Inform�tica
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (833,null,'Interneed
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (834,null,'Invix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (835,null,'IOTA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (836,null,'Irem
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (837,null,'Iskin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (838,null,'Iwill
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (839,null,'JC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (840,null,'JETWAY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (841,null,'JS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (842,null,'JUSTWARE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (843,null,'K-MEX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (844,null,'Kajoma
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (845,null,'Kaspersky
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (846,null,'Kdata
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (847,null,'Kennex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (848,null,'Kguard Security
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (849,null,'KIKARONI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (850,null,'Kingmax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (851,null,'Kingtiger
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (852,null,'KITDISK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (853,null,'KMAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (854,null,'Kojima Productions
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (855,null,'Konica
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (856,null,'KOREA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (857,null,'KOZUMI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (858,null,'KREISCHE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (859,null,'Kronnus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (860,null,'Ktech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (861,null,'KY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (862,null,'LABTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (863,null,'LAMAQQ
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (864,null,'LaserTeck
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (865,null,'Layer3
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (866,null,'Lea
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (867,null,'LeaderTech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (868,null,'Left Field Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (869,null,'Lenxx Sound
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (870,null,'LEVELONE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (871,null,'LFTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (872,null,'Li Shin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (873,null,'Lider
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (874,null,'Lig-Net
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (875,null,'Linkworld
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (876,null,'Live1
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (877,null,'Logisonic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (878,null,'Lorex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (879,null,'LSK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (880,null,'LUMENS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (881,null,'M-Sound
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (882,null,'MACROMEDIA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (883,null,'Madis Rodbel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (884,null,'MAGIC LASER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (885,null,'Majesco
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (886,null,'MARCH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (887,null,'MARVO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (888,null,'MASTER G
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (889,null,'MATROX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (890,null,'Maxcase
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (891,null,'Maxitelecom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (892,null,'Maxprint
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (893,null,'MAXX SOLUTION
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (894,null,'MCafee Associates
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (895,null,'MDX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (896,null,'Mecom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (897,null,'Mega Disc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (898,null,'MegaDisc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (899,null,'MEGAPLUS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (900,null,'Megaware
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (901,null,'Memoright
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (902,null,'MERCER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (903,null,'Merkury Innovations
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (904,null,'METRON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (905,null,'MGE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (906,null,'Micro CPU Atom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (907,null,'Micro CPU Core i3
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (908,null,'Micro CPU FX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (909,null,'Micro CPU Pentium Dual Core
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (910,null,'Micro CPU VIA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (911,null,'MICROBOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (912,null,'MICROFINS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (913,null,'Micron Technology
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (914,null,'MICROSTAR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (915,null,'MICROTOUCH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (916,null,'Midtec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (917,null,'Mikrotoner
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (918,null,'Minebea - NMB
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (919,null,'MISYS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (920,null,'Mitsupak
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (921,null,'MM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (922,null,'MOBILE ESSENTIALS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (923,null,'Monolith
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (924,null,'Mophie
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (925,null,'MOSEL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (926,null,'Mototech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (927,null,'MPT Condutores
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (928,null,'MRV
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (929,null,'MTP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (930,null,'Multiforma
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (931,null,'MULTITOC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (932,null,'Mumbo Jumbo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (933,null,'MXM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (934,null,'Myatec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (935,null,'N/D
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (936,null,'NAI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (937,null,'NANCO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (938,null,'NASHUA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (939,null,'Navistation
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (940,null,'Ncomputing
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (941,null,'Neat
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (942,null,'Neon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (943,null,'Neptuno
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (944,null,'NETGEAR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (945,null,'NETRIX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (946,null,'NEW DATA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (947,null,'New Port
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (948,null,'NEWS T
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (949,null,'NEXXT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (950,null,'Nidec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (951,null,'NINTENDO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (952,null,'Nitrix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (953,null,'Nobrepap
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (954,null,'Norion
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (955,null,'NotePart
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (956,null,'NOVO DISC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (957,null,'NQ
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (958,null,'Nvidia - Chipset
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (959,null,'Ocean
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (960,null,'OFFICE LINE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (961,null,'Olens Technology
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (962,null,'OMEGA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (963,null,'Onida
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (964,null,'OPTICOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (965,null,'OPTODISC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (966,null,'ORANGE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (967,null,'Ory
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (968,null,'Ozaki
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (969,null,'Pacific Network
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (970,null,'PALMONE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (971,null,'Pandemic Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (972,null,'Paper Home
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (973,null,'Pauta Connect
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (974,null,'PC Yes
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (975,null,'PCTEL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (976,null,'PDP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (977,null,'Pelican
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (978,null,'Pentatonic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (979,null,'PH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (980,null,'Philco-Itautec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (981,null,'Philmore
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (982,null,'Photec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (983,null,'PINE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (984,null,'PIRELLI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (985,null,'PixelView
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (986,null,'PLANET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (987,null,'Plantronics
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (988,null,'PLASTILUX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (989,null,'Play Game
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (990,null,'PLEXTOR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (991,null,'Plus Cable
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (992,null,'Point Fax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (993,null,'Politab
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (994,null,'Ponto System
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (995,null,'Positivo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (996,null,'Power Tooler
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (997,null,'PowerFast
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (998,null,'POWERPACK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (999,null,'PPTI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1000,null,'PREMIUM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1001,null,'PRINCO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1002,null,'Print Supplies
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1003,null,'PRINTPLUS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1004,null,'PRODISC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1005,null,'PROMERC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1006,null,'Propower
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1007,null,'Proter/PPA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1008,null,'Puma
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1009,null,'Q-See
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1010,null,'Qimonda
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1011,null,'Qtek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1012,null,'Quantic Dream
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1013,null,'Quinprint
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1014,null,'Radex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1015,null,'Rainbow Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1016,null,'Rayovac
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1017,null,'RCG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1018,null,'Red Force
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1019,null,'RedeAir
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1020,null,'Regency
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1021,null,'Rendition
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1022,null,'ReturnStar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1023,null,'RIDATA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1024,null,'Ritek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1025,null,'RoboCAT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1026,null,'RocketFish
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1027,null,'Roma
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1028,null,'Roxline
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1029,null,'RYNG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1030,null,'S3+
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1031,null,'Safety View
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1032,null,'Sakar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1033,null,'Santec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1034,null,'Sanyo Denki
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1035,null,'SATELLITE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1036,null,'SDE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1037,null,'SecPower
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1038,null,'SEGA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1039,null,'Sentey
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1040,null,'Shark
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1041,null,'Shertech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1042,null,'Showtec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1043,null,'Siberian
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1044,null,'Sierra Entertainment
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1045,null,'SILICOM IMAGE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1046,null,'Silykon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1047,null,'SimpleTech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1048,null,'Siroco
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1049,null,'SiyoTeam
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1050,null,'Skin Blue
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1051,null,'Sky Pro
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1052,null,'Slant Six Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1053,null,'SMART BUY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1054,null,'SMART LINK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1055,null,'SMARTVIEW
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1056,null,'SNK Playmore
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1057,null,'Solar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1058,null,'SOLUTION
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1059,null,'Sonia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1060,null,'Soul Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1061,null,'SOYO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1062,null,'Spark Unlimited
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1063,null,'SPECRAM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1064,null,'Speedlan
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1065,null,'SSK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1066,null,'Starbreeze
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1067,null,'Steck
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1068,null,'STI - Semp Toshiba Info
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1069,null,'STORAGE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1070,null,'STYLISH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1071,null,'Sukram
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1072,null,'Sunix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1073,null,'SUP RAM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1074,null,'Super Memory
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1075,null,'SUPERMICRO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1076,null,'SUPERVOICE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1077,null,'SUPREME
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1078,null,'SVT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1079,null,'Switch Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1080,null,'SYMANTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1081,null,'SYNCTEL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1082,null,'System 3
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1083,null,'Taio Yuden
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1084,null,'TARGUS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1085,null,'TDL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1086,null,'Tec Prima
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1087,null,'Techfix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1088,null,'TECHNOMEMORY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1089,null,'TECNOMAST
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1090,null,'TECOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1091,null,'Teem
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1092,null,'Tele System
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1093,null,'TELMAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1094,null,'Terratec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1095,null,'Teyon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1096,null,'Thermaltake
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1097,null,'THQ
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1098,null,'Tiger Hill Entertainment
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1099,null,'Todos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1100,null,'Top Plasticos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1101,null,'TOPDEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1102,null,'TopWare
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1103,null,'TOSHIBA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1104,null,'TP - Link
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1105,null,'Travel X
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1106,null,'TRELLIS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1107,null,'Trexta
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1108,null,'Trigital
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1109,null,'TRONI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1110,null,'Trumph
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1111,null,'TS SHARA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1112,null,'TTGI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1113,null,'TWINMOS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1114,null,'Tyco-Elotouch
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1115,null,'U-STIX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1116,null,'UIC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1117,null,'Ulysses
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1118,null,'UNICOBA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1119,null,'UNIVERSAL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1120,null,'URANIUM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1121,null,'USATech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1122,null,'V-Moda
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1123,null,'Vaip
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1124,null,'Valve Software
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1125,null,'VATHISA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1126,null,'Vcom / Wisecase
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1127,null,'Vectrux
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1128,null,'VemMax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1129,null,'Verico
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1130,null,'Vetti
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1131,null,'Victor
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1132,null,'Videolabs
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1133,null,'VIEWSONIC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1134,null,'Vigo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1135,null,'Virtual INK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1136,null,'Visual Concepts
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1137,null,'Vivitek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1138,null,'Volcano
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1139,null,'Vonkka
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1140,null,'VS Company
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1141,null,'VTek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1142,null,'VVS Sistemas
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1143,null,'Wasta
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1144,null,'Weile
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1145,null,'WESTERN DIGITAL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1146,null,'WiBravo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1147,null,'Win Cabos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1148,null,'Winbook
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1149,null,'Wintec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1150,null,'Work Class
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1151,null,'Wurth
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1152,null,'X-Cell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1153,null,'X-Sound
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1154,null,'X5Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1155,null,'XBSYSTEMS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1156,null,'XGITECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1157,null,'XPC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1158,null,'Xtech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1159,null,'XW3
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1160,null,'Yata
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1161,null,'You Sound
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1162,null,'Z-Axis
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1163,null,'ZALMMAN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1164,null,'Zigor
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1165,null,'Zip-Linq
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1166,null,'Zogis
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1167,null,'ZOOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1168,null,'ZSMC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1169,null,'Zyon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1170,null,'2K Marin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1171,null,'2RM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1172,null,'3DMS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1173,null,'3S Artefatos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1174,null,'A4 Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1175,null,'Ablecom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1176,null,'AcBel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1177,null,'Acekard
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1178,null,'Acomdata
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1179,null,'Activision, Inc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1180,null,'ADDONICS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1181,null,'ADS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1182,null,'Advanced
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1183,null,'Aerocool
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1184,null,'Agaprint
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1185,null,'AGL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1186,null,'Aiko
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1187,null,'AIPTEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1188,null,'AirLive
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1189,null,'Akg
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1190,null,'ALBATRON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1191,null,'Alfa
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1192,null,'ALI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1193,null,'Allight
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1194,null,'Aloform
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1195,null,'Amaze
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1196,null,'AMBIENT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1197,null,'American Dynamics
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1198,null,'Amplimatic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1199,null,'Antena Wireless
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1200,null,'Aopen
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1201,null,'Apanox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1202,null,'APIDA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1203,null,'APPLE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1204,null,'Archos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1205,null,'Argox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1206,null,'ARTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1207,null,'Arx
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1208,null,'Asobo Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1209,null,'Astar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1210,null,'AT&T
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1211,null,'Atek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1212,null,'ATI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1213,null,'Atmel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1214,null,'Audiotrak
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1215,null,'AUO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1216,null,'Auvo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1217,null,'AVC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1218,null,'AVERATECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1219,null,'AVIDAV
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1220,null,'AXIOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1221,null,'AZAND
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1222,null,'BADONG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1223,null,'BAK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1224,null,'Barasch
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1225,null,'Baston
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1226,null,'Belkin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1227,null,'Best Battery
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1228,null,'Bestexpress
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1229,null,'BFG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1230,null,'BIGNET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1231,null,'Bircatti
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1232,null,'Black Box
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1233,null,'Blade
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1234,null,'Blu
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1235,null,'BM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1236,null,'Bomao
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1237,null,'Boreal
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1238,null,'BPS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1239,null,'Brasil Click
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1240,null,'BRIGHT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1241,null,'BTC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1242,null,'Bulkink Gen�rico
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1243,null,'C3 Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1244,null,'Camac
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1245,null,'Canon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1246,null,'Cart�o Telef�nico
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1247,null,'Cartucho Etc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1248,null,'CASH WAY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1249,null,'CCM Mobile
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1250,null,'CDLAC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1251,null,'Cemar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1252,null,'CFTV Cable
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1253,null,'CHAMEX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1254,null,'Cheng
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1255,null,'Chimei Innolux
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1256,null,'Chip Tim
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1257,null,'Cia do Software
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1258,null,'CIS/Sertic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1259,null,'City Interactive
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1260,null,'CLICKER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1261,null,'Club Fan
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1262,null,'CMMC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1263,null,'COBRA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1264,null,'COLETEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1265,null,'Comfast
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1266,null,'Compex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1267,null,'Comtrend
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1268,null,'Condutti
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1269,null,'ConfiHastes
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1270,null,'Coolermaster
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1271,null,'COP-USA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1272,null,'Corel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1273,null,'Cougar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1274,null,'CREATIVE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1275,null,'CROMUS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1276,null,'Crystal
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1277,null,'CYBER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1278,null,'CYBERMIDIA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1279,null,'D-Cell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1280,null,'D-Tronics
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1281,null,'Dance
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1282,null,'Danka
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1283,null,'Daru
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1284,null,'Datacard
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1285,null,'Datarhines
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1286,null,'DataSound
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1287,null,'Davilex Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1288,null,'Deadline Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1289,null,'DeKing
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1290,null,'Dell Computer
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1291,null,'Denon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1292,null,'Dexim
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1293,null,'DIAMOND
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1294,null,'Digigrow
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1295,null,'Digistar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1296,null,'Digital Life
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1297,null,'Digital Prism
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1298,null,'DIMEP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1299,null,'DK-47
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1300,null,'DMH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1301,null,'DocuPen
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1302,null,'Double Helix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1303,null,'DRAM MASTER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1304,null,'DSW
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1305,null,'Duex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1306,null,'DUTOPLAST
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1307,null,'Dynamic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1308,null,'DYNATRON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1309,null,'E-TECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1310,null,'EA Sports
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1311,null,'EasyCAP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1312,null,'Ebox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1313,null,'Eclipse/Notcell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1314,null,'EcoPC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1315,null,'Eden Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1316,null,'Edmark
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1317,null,'Eidos Interactive
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1318,null,'Eldtec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1319,null,'ELETRIX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1320,null,'Elite
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1321,null,'Elmo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1322,null,'Emayse
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1323,null,'Emtec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1324,null,'ENERGIZER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1325,null,'Energy Sistem
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1326,null,'ENJOY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1327,null,'Enzatec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1328,null,'Epcom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1329,null,'Eqquatron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1330,null,'ESS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1331,null,'Euro Case
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1332,null,'EVERCOOL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1333,null,'Eversun
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1334,null,'EWave
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1335,null,'ExcelStor
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1336,null,'EXPREX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1337,null,'EXXA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1338,null,'EZPAC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1339,null,'Fabinject
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1340,null,'Fancong
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1341,null,'FastBook
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1342,null,'Faxlito
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1343,null,'Fercatronic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1344,null,'FIDELIA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1345,null,'Fiolux
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1346,null,'First Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1347,null,'Flex Gold
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1348,null,'Flux
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1349,null,'Force Line
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1350,null,'Foscam
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1351,null,'FOXCONN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1352,null,'Freeport
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1353,null,'Frontec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1354,null,'FTG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1355,null,'FUJITSU
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1356,null,'Futura
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1357,null,'G&G
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1358,null,'Gaia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1359,null,'Gama Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1360,null,'Gameloft
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1361,null,'Garra Componentes
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1362,null,'Gblue
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1363,null,'GECUBE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1364,null,'Genesis
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1365,null,'Gerb�
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1366,null,'Gi-Link
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1367,null,'GigaStore
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1368,null,'GLASSPIM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1369,null,'Globe Fan
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1370,null,'Gold
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1371,null,'Golden Cabo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1372,null,'GoPro
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1373,null,'GPX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1374,null,'Gravo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1375,null,'Grin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1376,null,'GTC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1377,null,'GUARDIAN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1378,null,'Haf
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1379,null,'Hannspree
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1380,null,'Hard Cam
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1381,null,'Harmonix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1382,null,'HAYANNARA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1383,null,'HBuster
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1384,null,'HELIOS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1385,null,'Hercules
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1386,null,'Hi-Rice
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1387,null,'High Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1388,null,'HIGHPOINT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1389,null,'Hikor
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1390,null,'HIS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1391,null,'HL - Hitachi LG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1392,null,'Hontek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1393,null,'How
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1394,null,'HQ
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1395,null,'HS-IT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1396,null,'HUA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1397,null,'HUKE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1398,null,'HYA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1399,null,'Hypershield
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1400,null,'I-Inc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1401,null,'Ibayo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1402,null,'Ichiban
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1403,null,'ID Data
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1404,null,'Ideal Antenas
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1405,null,'IFE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1406,null,'iKey
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1407,null,'iLuv
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1408,null,'Imodo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1409,null,'In Focus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1410,null,'IndyLab
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1411,null,'InfoKiT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1412,null,'iNiS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1413,null,'Ink Gross
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1414,null,'Inland
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1415,null,'INOI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1416,null,'Integris
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1417,null,'Interactive Vision
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1418,null,'Interworks
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1419,null,'IODATA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1420,null,'IPERRIS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1421,null,'Iris
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1422,null,'ITAUCOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1423,null,'JATON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1424,null,'JET RAM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1425,null,'Jeway
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1426,null,'JTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1427,null,'JVC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1428,null,'Kadosh
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1429,null,'Kanvus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1430,null,'Kaspersky Lab
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1431,null,'Kelow
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1432,null,'Kensington
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1433,null,'KHYPERMEDIA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1434,null,'Kim
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1435,null,'Kingo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1436,null,'Kingwin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1437,null,'KLC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1438,null,'Knup
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1439,null,'Kolke
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1440,null,'KONICA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1441,null,'Koss
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1442,null,'KRAM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1443,null,'KRISTA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1444,null,'KSeg
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1445,null,'KTI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1446,null,'Kyocera
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1447,null,'LACERDA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1448,null,'Laminapel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1449,null,'LAUDCOMP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1450,null,'LB Sat
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1451,null,'Lead Data
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1452,null,'LEADTEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1453,null,'Legacy Interactive
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1454,null,'Leodisk
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1455,null,'LEXAR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1456,null,'LG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1457,null,'Li Von
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1458,null,'Life Data
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1459,null,'LIGHTHOUSE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1460,null,'Lite On
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1461,null,'Loch
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1462,null,'LOGISYS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1463,null,'LOWEPRO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1464,null,'Lucane
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1465,null,'Luxcel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1466,null,'M1 Motor One
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1467,null,'Macromedia Brasil
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1468,null,'Magellan
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1469,null,'Magnex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1470,null,'MANDARIM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1471,null,'Marcsonic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1472,null,'MASSCOOL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1473,null,'MASTER SUX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1474,null,'MATSONIC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1475,null,'MAXELL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1476,null,'Maxmax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1477,null,'Maxton
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1478,null,'MAXXTRO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1479,null,'MCM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1480,null,'MECAF
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1481,null,'Media
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1482,null,'Mega Eletronics
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1483,null,'MEGALIFE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1484,null,'MEGASPEED
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1485,null,'Meind
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1486,null,'MEMORY ONE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1487,null,'MERCURY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1488,null,'MERLIN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1489,null,'MEXTON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1490,null,'MGM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1491,null,'Micro CPU Celeron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1492,null,'Micro CPU Core i5
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1493,null,'Micro CPU Opteron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1494,null,'Micro CPU Phenom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1495,null,'Micro CPU Xeon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1496,null,'Microbon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1497,null,'Microform
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1498,null,'MICRONET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1499,null,'Microstar - MSI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1500,null,'MID
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1501,null,'Midway
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1502,null,'Milestone
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1503,null,'Mio
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1504,null,'MITSUBISHI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1505,null,'MITSUSHIBA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1506,null,'MNA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1507,null,'MOBILE RACK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1508,null,'Monster Cable
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1509,null,'Morelle
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1510,null,'Moser Baer
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1511,null,'Moving Star
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1512,null,'MR FLASH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1513,null,'MT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1514,null,'Multi-Net
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1515,null,'MULTILASER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1516,null,'MultiVis�o
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1517,null,'Mushkin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1518,null,'MXT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1519,null,'MyFlash
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1520,null,'N3 Computadores
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1521,null,'NAI Licen�as
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1522,null,'NANYA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1523,null,'NATIVA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1524,null,'Navman
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1525,null,'NCP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1526,null,'NEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1527,null,'NeoPC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1528,null,'Nero
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1529,null,'NetherRealm Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1530,null,'NETSCREEN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1531,null,'New Driver
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1532,null,'NEWJET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1533,null,'NEWSTAR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1534,null,'Nexxus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1535,null,'NIKON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1536,null,'NIPPONIC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1537,null,'NKS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1538,null,'Noctua
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1539,null,'NOSTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1540,null,'Noteship
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1541,null,'NOVOTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1542,null,'NSPIRE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1543,null,'Nyko
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1544,null,'Ocean Pacific
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1545,null,'OiwTech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1546,null,'Olio
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1547,null,'Omega Force
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1548,null,'Onkyo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1549,null,'OPTIKAL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1550,null,'Optoma
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1551,null,'Orbi Qu�mica
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1552,null,'OSAKA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1553,null,'Ozone
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1554,null,'Pack
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1555,null,'Palsonik
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1556,null,'PanDigital
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1557,null,'PAPST
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1558,null,'PC Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1559,null,'PCCASE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1560,null,'Pctop
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1561,null,'Pearstone
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1562,null,'Pendxinda
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1563,null,'Pentax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1564,null,'Phaser
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1565,null,'Philco/Itautec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1566,null,'Phitronics
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1567,null,'PILOT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1568,null,'PINNACLE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1569,null,'Pisc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1570,null,'Pixxo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1571,null,'Planeta Euro
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1572,null,'Plasmon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1573,null,'PLATINUM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1574,null,'Players
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1575,null,'PLP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1576,null,'PLUSTEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1577,null,'Point Of View
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1578,null,'Polycom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1579,null,'PORTAL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1580,null,'POSITIVO MOBILE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1581,null,'Power X
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1582,null,'PowerLegal
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1583,null,'PowerWare
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1584,null,'PQI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1585,null,'PRETEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1586,null,'Print Ink
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1587,null,'Print-Rite
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1588,null,'Pro-Sport
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1589,null,'PRODISK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1590,null,'Promise
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1591,null,'ProSound
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1592,null,'PROVIEW
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1593,null,'PW
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1594,null,'Qbex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1595,null,'QLogic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1596,null,'Qualcomm
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1597,null,'QUANTUM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1598,null,'Quotix Software
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1599,null,'Radical Entertainment
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1600,null,'Ralink
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1601,null,'RAZER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1602,null,'RealSat
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1603,null,'Red-Tec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1604,null,'REDHAT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1605,null,'Regispel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1606,null,'Reneon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1607,null,'REZY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1608,null,'RIM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1609,null,'RiverDeep Interactive Learning
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1610,null,'ROBOT-CAM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1611,null,'Rockstar Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1612,null,'Rontek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1613,null,'ROYAL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1614,null,'S&L Telecom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1615,null,'Saber Interactive
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1616,null,'Sagem
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1617,null,'SAMSUNG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1618,null,'Santech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1619,null,'Sanzana
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1620,null,'SCEA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1621,null,'SEAGATE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1622,null,'Securi Service
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1623,null,'Senao
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1624,null,'ServGate
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1625,null,'SHARP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1626,null,'SHIKATRONICS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1627,null,'Shuray
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1628,null,'SICNET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1629,null,'Sierra Wireless
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1630,null,'Silicon Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1631,null,'SIMAVI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1632,null,'Sincal
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1633,null,'SIS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1634,null,'SK-TECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1635,null,'Skinomi
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1636,null,'SKY-MEDIA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1637,null,'Smak
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1638,null,'SMART DISK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1639,null,'Smart ONE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1640,null,'SMC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1641,null,'Snom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1642,null,'Solid Alliance
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1643,null,'Som�o
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1644,null,'SONICWALL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1645,null,'Soultech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1646,null,'Soyt
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1647,null,'SPARKLE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1648,null,'SPECTEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1649,null,'Spike
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1650,null,'ST Com
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1651,null,'STAREX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1652,null,'Steelseries
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1653,null,'Stilus Eletr�nica
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1654,null,'STORM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1655,null,'Subor
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1656,null,'Sumdex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1657,null,'SUNON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1658,null,'Super Case
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1659,null,'Super Red
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1660,null,'SUPERMIDIA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1661,null,'SUPORTPLUS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1662,null,'SURECOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1663,null,'SW
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1664,null,'SYBA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1665,null,'SYMAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1666,null,'Syntax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1667,null,'T-nB
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1668,null,'Taito
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1669,null,'Tascam
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1670,null,'TEAC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1671,null,'Tecco
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1672,null,'Techland
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1673,null,'Techwell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1674,null,'Tecnoshow
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1675,null,'Tecpel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1676,null,'Tekpix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1677,null,'Teleji
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1678,null,'Telsec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1679,null,'TES
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1680,null,'TGC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1681,null,'Thevear
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1682,null,'Thrustmaster
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1683,null,'Titan
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1684,null,'Toledo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1685,null,'TOP-G
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1686,null,'TopG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1687,null,'TopWay
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1688,null,'Touchstone
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1689,null,'TP-Link
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1690,null,'Traveling Disk
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1691,null,'TRENDWARE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1692,null,'Tri-Ace
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1693,null,'Tripp Lite
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1694,null,'Troni/Vcom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1695,null,'Trust
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1696,null,'TSALEACH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1697,null,'Tungson Ages
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1698,null,'Twisted Pixel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1699,null,'TYKONIC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1700,null,'U-Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1701,null,'UJC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1702,null,'UmeDisc
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1703,null,'UniPower
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1704,null,'UNIX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1705,null,'Urano
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1706,null,'USROBOTICS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1707,null,'V-STREAM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1708,null,'Valcon Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1709,null,'VANGUARD
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1710,null,'VBURST
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1711,null,'VDATA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1712,null,'Vega
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1713,null,'Venetian
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1714,null,'Veritas
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1715,null,'VG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1716,null,'Victoria
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1717,null,'VIDEOLAR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1718,null,'VIEWTECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1719,null,'VIKING
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1720,null,'Visiontek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1721,null,'Visus TV
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1722,null,'Vizeon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1723,null,'Volition Inc.
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1724,null,'VORTEX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1725,null,'Vseg
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1726,null,'Vtrex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1727,null,'WACOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1728,null,'WAVETEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1729,null,'Welcom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1730,null,'Westinghouse
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1731,null,'WideMac
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1732,null,'Win Star
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1733,null,'Winco
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1734,null,'Wireless Computing
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1735,null,'World
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1736,null,'WX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1737,null,'X-DW
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1738,null,'X-VIEW
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1739,null,'Xaber
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1740,null,'Xenon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1741,null,'XIRCOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1742,null,'Xpert Vision
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1743,null,'Xtrax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1744,null,'XWay
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1745,null,'Yate Loon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1746,null,'YPE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1747,null,'Z-CYBER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1748,null,'ZEBRA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1749,null,'Zimo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1750,null,'Zipper Interactive
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1751,null,'Zoltrix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1752,null,'Zoom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1753,null,'ZTE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1754,null,'Zyxel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1755,null,'2K Play
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1756,null,'2RM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1757,null,'3GSEG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1758,null,'4KUS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1759,null,'A4-TECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1760,null,'Abocom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1761,null,'ACCU
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1762,null,'Aceplus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1763,null,'Acon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1764,null,'ADAPTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1765,null,'ADDTRON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1766,null,'Advance
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1767,null,'Advantech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1768,null,'AF
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1769,null,'AGERE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1770,null,'AGN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1771,null,'Aikon Audio
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1772,null,'AIRFLOW
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1773,null,'AirLive/Ovislink
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1774,null,'Akonii
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1775,null,'Alcanci
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1776,null,'Alfa Network
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1777,null,'All Line
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1778,null,'Allmax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1779,null,'AlphaTek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1780,null,'Amazon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1781,null,'Amco
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1782,null,'Ameriprint
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1783,null,'AMPO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1784,null,'Anycool
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1785,null,'AP Router
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1786,null,'APC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1787,null,'Apogee
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1788,null,'Aquario
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1789,null,'Arctic Cooling
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1790,null,'ARGUS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1791,null,'ARTEX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1792,null,'AsaFan
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1793,null,'ASOUND
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1794,null,'Astech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1795,null,'ATA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1796,null,'ATEN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1797,null,'ATI - Chipset
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1798,null,'Atomic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1799,null,'Audiovox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1800,null,'AUREAL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1801,null,'AVA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1802,null,'Avensis
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1803,null,'Avermedia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1804,null,'Avision
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1805,null,'Axis
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1806,null,'Azden
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1807,null,'BAFO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1808,null,'Bandai Namco
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1809,null,'Bargoa
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1810,null,'BC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1811,null,'BEMATECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1812,null,'Best Cooler
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1813,null,'Bethesda
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1814,null,'Biccnet
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1815,null,'BIOSTAR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1816,null,'Bitatek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1817,null,'Black Lantern
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1818,null,'BLITZ
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1819,null,'Bluecase
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1820,null,'BMI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1821,null,'Bomber
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1822,null,'Borland
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1823,null,'Br55
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1824,null,'Brastech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1825,null,'Broadcom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1826,null,'BUFF
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1827,null,'BUSLINK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1828,null,'CA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1829,null,'Cameron Sino
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1830,null,'Canyon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1831,null,'CARTOLOGICA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1832,null,'CASE LOGIC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1833,null,'Casio
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1834,null,'CD Land
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1835,null,'CECT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1836,null,'Cenega Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1837,null,'CH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1838,null,'CHAMP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1839,null,'CHIEFTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1840,null,'Chimera
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1841,null,'Chip Vivo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1842,null,'Cia dos Cabos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1843,null,'Cisco/Linksys
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1844,null,'Classe
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1845,null,'CLIO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1846,null,'Club Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1847,null,'CMT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1848,null,'CobreKabos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1849,null,'Color Laboratories
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1850,null,'Commercial
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1851,null,'Compufour
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1852,null,'ConaiStar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1853,null,'Conex Conectores
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1854,null,'Connec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1855,null,'COOLMAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1856,null,'Copimax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1857,null,'CORSAIR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1858,null,'Cowboy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1859,null,'Creative Labs
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1860,null,'CROSS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1861,null,'CS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1862,null,'Cyber Vision
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1863,null,'Cyclades
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1864,null,'D-LINK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1865,null,'D3 Publisher
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1866,null,'DANE ELEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1867,null,'Darfon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1868,null,'DARUMA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1869,null,'Datage
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1870,null,'DataRight
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1871,null,'Datatri
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1872,null,'Day 1 Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1873,null,'Deep Cool
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1874,null,'Deko
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1875,null,'Delstar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1876,null,'Desko
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1877,null,'DEXXA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1878,null,'Diamond Network
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1879,null,'Digiklone
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1880,null,'DIGITAL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1881,null,'DIGITAL MATRIX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1882,null,'Digital Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1883,null,'Disc +
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1884,null,'DKSeg
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1885,null,'DMS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1886,null,'Dotcell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1887,null,'DR HANK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1888,null,'Dream Gear
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1889,null,'Dtac
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1890,null,'Duo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1891,null,'DVA Lima
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1892,null,'Dynapas
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1893,null,'E-Blue
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1894,null,'E3 Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1895,null,'EARPHONE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1896,null,'EASYDISK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1897,null,'EBRAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1898,null,'ECOLASER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1899,null,'ECP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1900,null,'EDGE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1901,null,'EDUP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1902,null,'EIKI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1903,null,'Elektron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1904,null,'Eletrovision
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1905,null,'ELIXIR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1906,null,'Elovo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1907,null,'Emerson Network
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1908,null,'Emulex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1909,null,'Energy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1910,null,'Enermax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1911,null,'ENLIGHT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1912,null,'Enzon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1913,null,'Epic MegaGames
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1914,null,'ESet
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1915,null,'Eterna
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1916,null,'EUROCASE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1917,null,'Eveready
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1918,null,'EVGA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1919,null,'Exactus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1920,null,'Executive
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1921,null,'Exquis
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1922,null,'EZCap
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1923,null,'F-Secure
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1924,null,'F�cil
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1925,null,'FANNER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1926,null,'FASTFAME
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1927,null,'Feasso
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1928,null,'Fersicon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1929,null,'Filemate
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1930,null,'Firaxis
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1931,null,'Flagship Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1932,null,'FlexBox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1933,null,'Fly Data
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1934,null,'FORMULABS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1935,null,'FOSTON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1936,null,'Frapa
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1937,null,'Freetalk
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1938,null,'Frontline Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1939,null,'Fuji
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1940,null,'FunSta
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1941,null,'Futuro
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1942,null,'G-Skill
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1943,null,'Gaijin Entertainment
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1944,null,'Game Arts
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1945,null,'GAMEPOWER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1946,null,'Gateway
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1947,null,'GCS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1948,null,'GeeDom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1949,null,'GENIUS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1950,null,'GERICON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1951,null,'Giga Security
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1952,null,'Girardi
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1953,null,'Global Win
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1954,null,'GMC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1955,null,'GOLD
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1956,null,'Golden Field
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1957,null,'GOTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1958,null,'Gradiente
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1959,null,'Greatek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1960,null,'GRISOFT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1961,null,'GTIE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1962,null,'Guardian imaging
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1963,null,'Hand Held
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1964,null,'Hannstar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1965,null,'HARD COOLER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1966,null,'Hauppauge
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1967,null,'Hayonik
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1968,null,'HDL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1969,null,'HELLERMAN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1970,null,'HI CAPACITY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1971,null,'Hi-Tech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1972,null,'High Voltage Soft.
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1973,null,'Hightech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1974,null,'HILL POWER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1975,null,'HITACHI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1976,null,'HLT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1977,null,'Horbi
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1978,null,'Hoya
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1979,null,'HS Case
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1980,null,'HT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1981,null,'HUAWEI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1982,null,'HUNTKEY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1983,null,'HYNIX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1984,null,'Hypertec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1985,null,'I-Talent
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1986,null,'IBIS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1987,null,'ICONCEPTS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1988,null,'iData
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1989,null,'IdealSoft
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1990,null,'iGa
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1991,null,'Ikon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1992,null,'IMATION
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1993,null,'Impact
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1994,null,'INCASJET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1995,null,'INFINEON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1996,null,'INFORMAT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1997,null,'INJET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1998,null,'INK PRO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (1999,null,'InnoAX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2000,null,'Inovia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2001,null,'INTEL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2002,null,'INTERAGE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2003,null,'Interwrite
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2004,null,'IOMEGA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2005,null,'Ipioneer
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2006,null,'IRIVER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2007,null,'ITECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2008,null,'Jazz
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2009,null,'Jet Way
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2010,null,'Jiabao
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2011,null,'JUSTCOOLER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2012,null,'JWin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2013,null,'KAIOMY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2014,null,'Kartz
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2015,null,'Katun
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2016,null,'KELPEX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2017,null,'Kerio
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2018,null,'KidEletron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2019,null,'King
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2020,null,'Kingsam
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2021,null,'Kinstone
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2022,null,'Klibber
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2023,null,'KODAK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2024,null,'Konami
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2025,null,'Konica-Minolta
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2026,null,'Koutech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2027,null,'Kramer Electronics
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2028,null,'Krome Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2029,null,'KT NET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2030,null,'KUK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2031,null,'Kyocera - Yashica
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2032,null,'LACIE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2033,null,'Lan Expert
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2034,null,'LAVA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2035,null,'LC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2036,null,'Lead Free
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2037,null,'Leboss
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2038,null,'Lennon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2039,null,'Leucotron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2040,null,'Lexel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2041,null,'LG Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2042,null,'Lian li
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2043,null,'Lifetech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2044,null,'Lightware
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2045,null,'LITE-ON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2046,null,'Logic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2047,null,'LOGITECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2048,null,'LSI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2049,null,'LucasArts
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2050,null,'Luxvision
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2051,null,'Macefor
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2052,null,'Mad Catz
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2053,null,'Magenta
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2054,null,'Mais Mania
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2055,null,'Manfrotto
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2056,null,'Margirius
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2057,null,'MASTER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2058,null,'MASTERPRINT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2059,null,'Matsui
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2060,null,'MAXI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2061,null,'Maxmux
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2062,null,'MAXTOR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2063,null,'MB
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2064,null,'MD9
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2065,null,'MECER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2066,null,'Media Molecule
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2067,null,'Mega innovation
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2068,null,'Megalife
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2069,null,'Megaston
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2070,null,'Melhoramentos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2071,null,'MemoryKick
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2072,null,'Meridian
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2073,null,'METALTEX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2074,null,'MG
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2075,null,'MIB
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2076,null,'Micro CPU Core 2 Duo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2077,null,'Micro CPU Core i7
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2078,null,'Micro CPU Pentium 4
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2079,null,'Micro CPU Sempron
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2080,null,'Micro Innovations
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2081,null,'MICROFAN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2082,null,'Microlab
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2083,null,'MICROSOFT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2084,null,'Microtec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2085,null,'MidCom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2086,null,'MIGRA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2087,null,'Mimaki
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2088,null,'Mirage
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2089,null,'MITSUI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2090,null,'Mix
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2091,null,'MO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2092,null,'Mobimax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2093,null,'MonteCristo Games
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2094,null,'Mormaii
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2095,null,'Motion
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2096,null,'Mox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2097,null,'MR MO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2098,null,'MTEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2099,null,'Multicom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2100,null,'Multimidia Player
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2101,null,'Multivision
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2102,null,'MUSTEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2103,null,'My Aqua Case
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2104,null,'Mymax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2105,null,'N5
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2106,null,'Nakashi
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2107,null,'Napoli
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2108,null,'Naughty Dog
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2109,null,'Naxos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2110,null,'NDrive
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2111,null,'NEO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2112,null,'Neox
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2113,null,'Netcs
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2114,null,'NETMOS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2115,null,'Neutral
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2116,null,'New Limit
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2117,null,'NEWNESS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2118,null,'NEXANS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2119,null,'NFREN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2120,null,'Nilko
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2121,null,'NIS America
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2122,null,'Nobilis
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2123,null,'Nokia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2124,null,'Notcell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2125,null,'Novadata
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2126,null,'Novy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2127,null,'Nvidia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2128,null,'NZXT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2129,null,'OCTEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2130,null,'OKI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2131,null,'Olivetti
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2132,null,'OMISYS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2133,null,'ONYON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2134,null,'Option
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2135,null,'OPTORITE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2136,null,'Orbiter
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2137,null,'OVISLINK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2138,null,'Pac do Brasil
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2139,null,'PALIT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2140,null,'PANASONIC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2141,null,'Panduit
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2142,null,'Patriot
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2143,null,'PC TEL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2144,null,'PCCHIPS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2145,null,'PCWare
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2146,null,'Pega
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2147,null,'PENEON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2148,null,'PERFORMACE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2149,null,'Phenix Force
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2150,null,'Philcos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2151,null,'PHOEBE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2152,null,'PILOTECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2153,null,'PIONEER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2154,null,'Pixel TI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2155,null,'PLAGET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2156,null,'Planon
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2157,null,'Plastek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2158,null,'Platium
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2159,null,'Playlogic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2160,null,'Plug F�cil
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2161,null,'PLUTON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2162,null,'Point Solutions
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2163,null,'Polyphony Digital
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2164,null,'Portal dos Cabos
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2165,null,'Power Kingdom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2166,null,'POWERCOLOR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2167,null,'POWERLINE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2168,null,'POWMEM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2169,null,'Pramac
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2170,null,'Prima
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2171,null,'Print King
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2172,null,'Printers
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2173,null,'PRODATA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2174,null,'ProEletronic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2175,null,'ProMOS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2176,null,'PROTECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2177,null,'PROXIMA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2178,null,'PXP
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2179,null,'QBOS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2180,null,'Qnap
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2181,null,'Qualitas
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2182,null,'Queen
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2183,null,'R e C
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2184,null,'RAGTECH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2185,null,'Rare
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2186,null,'RC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2187,null,'REALTEK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2188,null,'Redayber
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2189,null,'REDRACK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2190,null,'Reiamda
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2191,null,'Replay
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2192,null,'RF-Link
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2193,null,'Rino
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2194,null,'RML
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2195,null,'Rock Zero
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2196,null,'Rocksteady Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2197,null,'ROSEWILL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2198,null,'RT Electronics
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2199,null,'S-MAC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2200,null,'SABRENT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2201,null,'Sagemcom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2202,null,'SANDISK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2203,null,'Santino
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2204,null,'SAPPHIRE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2205,null,'SCT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2206,null,'Seasonic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2207,null,'See
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2208,null,'Sennheiser
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2209,null,'SEVENTEAM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2210,null,'Sharp
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2211,null,'SHIMI-RANHA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2212,null,'Shure
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2213,null,'SICNET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2214,null,'Sigma
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2215,null,'Silstar
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2216,null,'Simple Technology
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2217,null,'Single Point
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2218,null,'SISTEM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2219,null,'SKC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2220,null,'SKS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2221,null,'Skyhawk
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2222,null,'Small Soft
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2223,null,'SMART GOLD
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2224,null,'Smartby
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2225,null,'SMS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2226,null,'Snowblind Studios
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2227,null,'SOLTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2228,null,'Sonaki
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2229,null,'SONY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2230,null,'Sound Technology
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2231,null,'SpaceBR
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2232,null,'SPARTEC
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2233,null,'SPEED
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2234,null,'SPIRE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2235,null,'Stalo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2236,null,'Starplus
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2237,null,'STEREM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2238,null,'STOCK
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2239,null,'STRACTA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2240,null,'Sucker Punch
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2241,null,'Sumishi
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2242,null,'SUNSHINE
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2243,null,'SUPER DIGITAL
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2244,null,'SUPER TALENT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2245,null,'SuperSonic
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2246,null,'SUPPORT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2247,null,'SVA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2248,null,'Sweda
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2249,null,'Sybase
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2250,null,'Syncmais
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2251,null,'SYSDATA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2252,null,'TA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2253,null,'Tandberg
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2254,null,'TBlack
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2255,null,'Teac America Corp
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2256,null,'Tech Leader
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2257,null,'TECHMEDIA
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2258,null,'TECMO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2259,null,'TecnoVideo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2260,null,'Tectoy
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2261,null,'TEKRAM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2262,null,'Telesync
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2263,null,'Tenda
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2264,null,'TexPrint
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2265,null,'Thermal Power
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2266,null,'Thomson Multim�dia
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2267,null,'Tiffen
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2268,null,'Tivizen
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2269,null,'TomTom
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2270,null,'TOP-WORLD
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2271,null,'Topin
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2272,null,'TORCH
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2273,null,'Toyo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2274,null,'TPNET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2275,null,'Travellers Tales
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2276,null,'Trendware/Trendnet
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2277,null,'Tricod
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2278,null,'Triunfo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2279,null,'True Blue
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2280,null,'Trustmaster
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2281,null,'TSUNAMI
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2282,null,'Turtle Beach
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2283,null,'TWISTER
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2284,null,'TYM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2285,null,'Ubiquiti
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2286,null,'Ultra
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2287,null,'UN
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2288,null,'Unirex
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2289,null,'Upek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2290,null,'US ROBOTICS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2291,null,'Utilnet
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2292,null,'V7
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2293,null,'VALLEY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2294,null,'Vantec
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2295,null,'VCell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2296,null,'VECSOM
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2297,null,'Vegafone
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2298,null,'Venezyz
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2299,null,'Veritech
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2300,null,'VGT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2301,null,'Victorias Secret
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2302,null,'View Max
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2303,null,'Vigamil
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2304,null,'Villa Belle
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2305,null,'Visograf
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2306,null,'Vivax
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2307,null,'Vizzo
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2308,null,'Volk
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2309,null,'Voxson
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2310,null,'VSS BURT
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2311,null,'VTV Digital
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2312,null,'Wacom Technology
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2313,null,'WayForward
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2314,null,'Welland
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2315,null,'WF QUALIFITAS
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2316,null,'Wiess
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2317,null,'Winbel
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2318,null,'Winner
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2319,null,'Wisecase
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2320,null,'Worldtek
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2321,null,'WYTRON
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2322,null,'X-MICRO
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2323,null,'X3
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2324,null,'Xalk
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2325,null,'XEROX
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2326,null,'XNew
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2327,null,'XRAY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2328,null,'Xtreamer
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2329,null,'XYD
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2330,null,'Yierda
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2331,null,'YUANXING
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2332,null,'Zagg
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2333,null,'Zenith Data System
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2334,null,'Zinwell
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2335,null,'ZIPPY
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2336,null,'ZONET
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2337,null,'Zoom Telephonics
+',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2338,null,'Zycont',current_date,current_date);
+INSERT INTO CATEGORIES VALUES (2339,null,'2 Flex',current_date,current_date);

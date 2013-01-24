@@ -1,0 +1,5 @@
+INSERT INTO classifications VALUES (1,'very easy',current_date,current_date);
+INSERT INTO classifications VALUES (2,'easy',current_date,current_date);
+INSERT INTO classifications VALUES (3,'medium',current_date,current_date);
+INSERT INTO classifications VALUES (4,'hard',current_date,current_date);
+INSERT INTO classifications VALUES (5,'very hard',current_date,current_date);
