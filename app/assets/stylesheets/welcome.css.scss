@@ -1,88 +1,9 @@
 @import "bootstrap";
 
-.search-input {
-  width: 37%;
-  padding-left: 40px;
-  margin-left: 345px;
-  margin-rigt: 320px;
-  vertical-align: middle;
+.btn-size {
+  padding: 25px;
 }
 
-.items {
-  margin-top: 20px;
-  margin-left: 25px;
-}
-
-.loader {
-  background: url(loader.gif) 0 0 no-repeat;
-  width: 16px;
-  height: 16px;
-}
-
-.pin, .pin.profile, .pin.fb-pin {
-  position: relative;
-  width: 224px;
-  margin: 0 14px 14px 0;
-  font-size: 11px;
-  text-align: left;
-  font-family: "helvetica neue",arial,sans-serif;
-  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
-  -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
-  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
-  background-color: white;
-  float: left;
-}
-
-.pin::after, .pin.profile::after {
-  clear: both;
-  content: " ";
-  position: absolute;
-  display: block;
-  left: 0;
-  bottom: -14px;
-  width: 224px;
-  height: 14px;
-  background: url(/img/shadow.207162.png);
-  visibility: visible;
-  opacity: .5;
-}
-
-.pin .pic {
-  position: relative;
-  padding: 15px 15px 5px;
-  text-align: center;
-}
-
-.pin, .pin.profile, .pin.fb-pin {
-  font-size: 11px;
-  text-align: left;
-  font-family: "helvetica neue",arial,sans-serif;
-}
-
-.pin .pic a {
-  width: 194px;
-  height: 194px;
-  border: 0;
-}
-
-a {
-  color: #08C;
-  text-decoration: none;
-}
-
-.pin .pic img {
-  display: inline-block;
-  zoom: 1;
-  width: 194px;
-  height: 194px;
-  font-size: 0;
-  color: transparent;
-  background-color: white;
-}
-
-.pin .text {
-  padding: 0 15px 0;
-  line-height: 15px;
-  color: #211922;
-  overflow: hidden;
+.main-buttons {
+  margin: 17% 33%;
 }
