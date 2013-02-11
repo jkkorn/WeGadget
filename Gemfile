@@ -9,10 +9,10 @@ gem 'rails', '3.2.9'
 gem 'pg'
 
 # Authentication
-gem 'devise'
+gem 'devise', '~> 2.2.2'
 
 #bootstrap twitter = css/js/afins...
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 2.2.2.0'
 
 #parse json response
 gem 'httparty'

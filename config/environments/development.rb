@@ -27,8 +27,8 @@ Wegadget::Application.configure do
                                             :address              => "smtp.gmail.com",
                                             :port                 => 587,
                                             :domain               => 'gmail.com',
-                                            :user_name            => 'helenamcfreire@gmail.com',
-                                            :password             => 'agostO21',
+                                            :user_name            => 'caronaagora@gmail.com',
+                                            :password             => 'helenawesome',
                                             :authentication       => 'plain',
                                             :enable_starttls_auto => true
                                        }

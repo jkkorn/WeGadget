@@ -1,33 +1,66 @@
-<%= render "wegadget/header" %>
+<div id="mainWrapper" class="container">
+  <div class="row">
+    <div class="topBanners span12">
+      <div class="container">
 
-<div class="container special-content">
-  <div class="content">
-    <div class="row">
-      <div class="span8">
-        <div class="row">
-          <div class="span8">
-          </div>
-        </div>
-        <div class="row">
-          <div class="span8">
-            <div class="hero-unit">
-              <h1>WeGadget</h1>
-              <p>WeGadget aims to change the way you solve your gadget problems:  No more forums, just beautifully rich tutorials written by enthusiasts. </p>
-               <p>Learn how to do cool things with your gadgets.</p>
-                <p>We're gearing up for Beta and would love to know more about you. </p>
-               <p> Yes, we're hitting on you.  So what do you say? </p>
+        <div id="myCarousel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="active item designerGamer">
+              <iframe width="853" height="480" src="http://www.youtube.com/embed/hC_M6PzXS9g" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
-        </div><div class="row">
-          <p>Please fill out one of the forms, based on how nerdy you see yourself.</p>
-
-        <div class="main-buttons">
-            <a class="btn btn-inverse btn-large btn-size" href="/welcome/reader">Normal</a>
-            <a class="btn btn-danger btn-large btn-size" href="/welcome/writer">Geeky as fuck</a>
         </div>
 
       </div>
-      </div>
+
+    </div>
+    <div class="contentAreas span12"></div>
+  </div>
+  <div id="footerWrapper">
+    <div class="row footerRows">
+      <a href="http://carona.wufoo.com/forms/quero-carona/" target="_blank">
+        <div class="footerSquares span3 subBox1 hidden-phone receber" title="Quero receber carona">
+          <img class="socialLinks" src="/assets/walking.png">
+          <div class="border"></div>
+        </div>
+      </a>
+      <a href="http://carona.wufoo.com/forms/ofereco-carona/" target="_blank">
+        <div class="footerSquares span3 subBox1 hidden-phone oferecer" title="Quero oferecer carona">
+          <img class="socialLinks" src="/assets/jeep.png">
+          <div class="border"></div>
+        </div>
+      </a>
+      <a href="http://www.facebook.com/events/405818862834790/" target="_blank">
+        <div class="footerSquares bumpTopRow span9 subBox2">
+            <span class="contactMe">RIO e-Music FESTIVAL</span>
+        </div>
+      </a>
+    </div>
+    <div class="row footerRows noBorder">
+      <a href="http://carona.wufoo.com/forms/quero-carona/" target="_blank">
+        <div class="footerSquares span3 subBox1 hidden-phone receber" title="Quero receber carona">
+          <img class="socialLinks" src="/assets/walking.png">
+          <div class="border"></div>
+        </div>
+      </a>
+      <a href="http://carona.wufoo.com/forms/ofereco-carona/" target="_blank">
+        <div class="footerSquares span3 subBox1 hidden-phone oferecer" title="Quero oferecer carona">
+          <img class="socialLinks" src="/assets/jeep.png" >
+          <div class="border"></div>
+        </div>
+      </a>
+      <a href="http://www.facebook.com/events/389689934452951/" target="_blank">
+        <div class="footerSquares bumpTopRow span9 subBox2">
+            <span class="contactMe">Kaballah Circus Festival</span>
+        </div>
+      </a>
     </div>
   </div>
-</div> <!-- /container -->
+</div>
+
+<script>
+    $(function() {
+        $(".receber").tooltip();
+        $(".oferecer").tooltip();
+    });
+</script>
