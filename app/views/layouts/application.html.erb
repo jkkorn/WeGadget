@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Carona Agora</title>
+  <title>Levar.me</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -9,7 +9,7 @@
 
 
   <script type="text/javascript">
-
+  /* Google Analytics */
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-9516505-5']);
   _gaq.push(['_trackPageview']);
@@ -29,6 +29,27 @@
 
 </head>
 <body class="duggieTown">
+
+<div id="fb-root"></div>
+
+<div id="fb-root"></div>
+
+
+<script>
+    /* Botão Like do Facebook */
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<script>
+    /* Botão Tweetar do Twitter */
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
 
 <%= yield %>
 
