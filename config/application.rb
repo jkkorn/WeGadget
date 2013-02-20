@@ -4,7 +4,8 @@ require 'rails/all'
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
-  Bundler.require(*Rails.groups(:assets => %w(development test)))
+  # Helena alterou isso aqui pra funcionar o active admin no heroku
+  Bundler.require(:default, :assets, Rails.env)
   # If you want your assets lazily compiled in production, use this line
   # Bundler.require(:default, :assets, Rails.env)
 end
@@ -15,8 +16,11 @@ module Wegadget
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
+    #Added to fix devise/active admin issue ?
     config.assets.initialize_on_precompile = false
-    config.assets.compile = true
+
+# Precompile additional assets. Defaults to [application.js, application.css, non-JS/CSS]
+    config.assets.precompile += ['active_admin.css.scss', 'active_admin.js']
 
     # Custom directories with classes and modules you want to be autoloadable.
     # config.autoload_paths += %W(#{config.root}/extras)
