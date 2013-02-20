@@ -33,44 +33,27 @@
     <div class="contentAreas span12"></div>
   </div>
   <div id="footerWrapper">
-    <div class="row footerRows">
-      <a href="http://carona.wufoo.com/forms/quero-carona/" target="_blank">
-        <div class="footerSquares span3 subBox1 hidden-phone receber" title="Quero receber carona">
-          <img class="socialLinks" src="/assets/walking.png">
-          <div class="border"></div>
+    <% @events.each do |e| %>
+        <div class="row footerRows">
+          <a href="http://carona.wufoo.com/forms/quero-carona/" target="_blank">
+            <div class="footerSquares span3 subBox1 hidden-phone receber" title="Quero receber carona">
+              <img class="socialLinks" src="/assets/walking.png">
+              <div class="border"></div>
+            </div>
+          </a>
+          <a href="http://carona.wufoo.com/forms/ofereco-carona/" target="_blank">
+            <div class="footerSquares span3 subBox1 hidden-phone oferecer" title="Quero oferecer carona">
+              <img class="socialLinks" src="/assets/jeep.png">
+              <div class="border"></div>
+            </div>
+          </a>
+          <a href="<%= e.link %>" target="_blank">
+            <div class="footerSquares bumpTopRow span9 subBox2">
+                <span class="contactMe"><%= e.name %></span>
+            </div>
+          </a>
         </div>
-      </a>
-      <a href="http://carona.wufoo.com/forms/ofereco-carona/" target="_blank">
-        <div class="footerSquares span3 subBox1 hidden-phone oferecer" title="Quero oferecer carona">
-          <img class="socialLinks" src="/assets/jeep.png">
-          <div class="border"></div>
-        </div>
-      </a>
-      <a href="http://www.facebook.com/events/405818862834790/" target="_blank">
-        <div class="footerSquares bumpTopRow span9 subBox2">
-            <span class="contactMe">RIO e-Music FESTIVAL</span>
-        </div>
-      </a>
-    </div>
-    <div class="row footerRows noBorder">
-      <a href="http://carona.wufoo.com/forms/quero-carona/" target="_blank">
-        <div class="footerSquares span3 subBox1 hidden-phone receber" title="Quero receber carona">
-          <img class="socialLinks" src="/assets/walking.png">
-          <div class="border"></div>
-        </div>
-      </a>
-      <a href="http://carona.wufoo.com/forms/ofereco-carona/" target="_blank">
-        <div class="footerSquares span3 subBox1 hidden-phone oferecer" title="Quero oferecer carona">
-          <img class="socialLinks" src="/assets/jeep.png" >
-          <div class="border"></div>
-        </div>
-      </a>
-      <a href="http://www.facebook.com/events/389689934452951/" target="_blank">
-        <div class="footerSquares bumpTopRow span9 subBox2">
-            <span class="contactMe">Kaballah Circus Festival</span>
-        </div>
-      </a>
-    </div>
+    <% end %>
   </div>
 </div>
 

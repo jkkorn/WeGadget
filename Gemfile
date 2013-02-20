@@ -8,6 +8,12 @@ gem 'rails', '3.2.9'
 #database postgres
 gem 'pg'
 
+#admin application
+gem 'activeadmin'
+
+#send email
+gem 'actionmailer'
+
 # Authentication
 gem 'devise', '~> 2.2.2'
 
@@ -15,17 +21,17 @@ gem 'devise', '~> 2.2.2'
 gem 'bootstrap-sass', '~> 2.2.2.0'
 
 #parse json response
-gem 'httparty'
+#gem 'httparty'
 
 
 #Vote (like reddit)
 gem 'make_voteable'
 
 #Pagination
-gem 'will_paginate'
+#gem 'will_paginate'
 
 #Pagination styling conventions in Twitter's Bootstrap toolkit
-gem 'bootstrap-will_paginate'
+#gem 'bootstrap-will_paginate'
 
 # Gems used only for assets and not required
 # in production environments by default.
