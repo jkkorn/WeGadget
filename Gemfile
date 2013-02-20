@@ -12,7 +12,7 @@ gem 'pg'
 gem 'activeadmin'
 
 #send email
-gem 'actionmailer'
+#gem 'actionmailer'
 
 # Authentication
 gem 'devise', '~> 2.2.2'

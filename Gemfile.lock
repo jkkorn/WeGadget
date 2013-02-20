@@ -156,7 +156,6 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  actionmailer
   activeadmin
   bootstrap-sass (~> 2.2.2.0)
   coffee-rails (~> 3.2.1)
