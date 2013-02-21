@@ -19,8 +19,8 @@ module Wegadget
     #Added to fix devise/active admin issue ?
     config.assets.initialize_on_precompile = false
 
-# Precompile additional assets. Defaults to [application.js, application.css, non-JS/CSS]
-    config.assets.precompile += ['active_admin.css.scss', 'active_admin.js']
+    # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
+    config.assets.precompile += %w( active_admin.css active_admin/print.css active_admin.js )
 
     # Custom directories with classes and modules you want to be autoloadable.
     # config.autoload_paths += %W(#{config.root}/extras)
