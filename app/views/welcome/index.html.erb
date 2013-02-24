@@ -22,7 +22,7 @@
         <div id="myCarousel" class="carousel slide">
           <div class="carousel-inner">
             <div class="active item designerGamer">
-              <iframe width="853" height="480" src="http://www.youtube.com/embed/hC_M6PzXS9g" frameborder="0" allowfullscreen></iframe>
+              <h1>Levar.me<br>o futuro do compartilhamento</h1>
             </div>
           </div>
         </div>
@@ -33,33 +33,42 @@
     <div class="contentAreas span12"></div>
   </div>
   <div id="footerWrapper">
-    <% @events.each do |e| %>
         <div class="row footerRows">
-          <a href="http://carona.wufoo.com/forms/quero-carona/" target="_blank">
-            <div class="footerSquares span3 subBox1 hidden-phone receber" title="Quero receber carona">
-              <img class="socialLinks" src="/assets/walking.png">
-              <div class="border"></div>
+          <a href="#">
+            <div class="footerSquares span9 subBox1 hidden-phone carona">
+                <span class="contactMe">Quero receber carona</span>
+                <div class="border"></div>
             </div>
           </a>
-          <a href="http://carona.wufoo.com/forms/ofereco-carona/" target="_blank">
-            <div class="footerSquares span3 subBox1 hidden-phone oferecer" title="Quero oferecer carona">
-              <img class="socialLinks" src="/assets/jeep.png">
-              <div class="border"></div>
-            </div>
-          </a>
-          <a href="<%= e.link %>" target="_blank">
-            <div class="footerSquares bumpTopRow span9 subBox2">
-                <span class="contactMe"><%= e.name %></span>
+          <div class="border"></div>
+          <a href="#">
+            <div class="footerSquares span9 subBox1 hidden-phone carona">
+                <span class="contactMe">Quero oferecer carona</span>
             </div>
           </a>
         </div>
-    <% end %>
   </div>
+</div>
+
+<div id="dialog-modal" title="Levar.me">
+  <h6>Ficou interessado? Informe seu e-mail para receber as atualizações</h6>
+  <input type="text" placeholder="your@email.com" style="vertical-align: top; margin-left: 40px; width: 305px; text-align: center; margin-top: 15px;"/>
+  <button class="btn btn-success" style="margin-top: 15px;">GO</button>
 </div>
 
 <script>
     $(function() {
-        $(".receber").tooltip();
-        $(".oferecer").tooltip();
+        $(".carona")
+            .button()
+            .click(function() {
+                $( "#dialog-modal" ).dialog( "open" );
+            });
+
+        $( "#dialog-modal" ).dialog({
+            autoOpen: false,
+            height: 200,
+            width: 485,
+            modal: true
+        });
     });
 </script>
