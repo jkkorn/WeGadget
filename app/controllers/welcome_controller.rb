@@ -12,12 +12,8 @@ class WelcomeController < ApplicationController
 
   def create
     @email_cadastrado = EmailCadastrado.new(params[:email_cadastrado])
-
-    if @email_cadastrado.save
-      redirect_to(:controller => 'welcome', :action => 'index')
-    else
-      render('index')
-    end
+    @email_cadastrado.save
+    redirect_to(:controller => 'welcome', :action => 'index')
   end
 
 end

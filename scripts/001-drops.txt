@@ -7,6 +7,11 @@ DROP TABLE tags_tutorials;
 DROP TABLE tutorials;
 DROP TABLE users;
 DROP TABLE votings;
+DROP TABLE email_cadastrados;
+DROP TABLE emails;
+DROP TABLE active_admin_comments;
+DROP TABLE admin_users;
+DROP TABLE events;
 
 
 --Apos rodar esse script, executar 'rake db:migrate'

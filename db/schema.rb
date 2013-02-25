@@ -70,6 +70,7 @@ ActiveRecord::Schema.define(:version => 20130224234223) do
 
   create_table "email_cadastrados", :force => true do |t|
     t.string "email", :default => "", :null => false
+    t.string "tipo",  :default => "", :null => false
   end
 
   create_table "emails", :force => true do |t|
