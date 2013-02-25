@@ -8,9 +8,6 @@ gem 'rails', '3.2.9'
 #database postgres
 gem 'pg'
 
-#admin application (maldita gem que só dá problema !!!)
-#gem 'activeadmin'
-
 #send email
 gem 'actionmailer'
 
