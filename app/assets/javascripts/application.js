@@ -16,3 +16,4 @@
 //= require bootstrap
 //= require scrollpagination
 //= require nicEdit
+//= require jquery.orbit-1.2.3.min

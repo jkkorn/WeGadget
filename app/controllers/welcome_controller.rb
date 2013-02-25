@@ -7,7 +7,17 @@ class WelcomeController < ApplicationController
   end
 
   def index
-    @events = Event.all
+    @email_cadastrado = EmailCadastrado.new
+  end
+
+  def create
+    @email_cadastrado = EmailCadastrado.new(params[:email_cadastrado])
+
+    if @email_cadastrado.save
+      redirect_to(:controller => 'welcome', :action => 'index')
+    else
+      render('index')
+    end
   end
 
 end

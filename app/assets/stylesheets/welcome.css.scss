@@ -48,8 +48,7 @@ body.duggieTown { background:#f2f2f2; letter-spacing:1px;}
 }
 .tertHeader { min-height:115px;}
 .contentWrap {padding-top:20px; padding-bottom:30px;}
-.contentContents, #contact-form { margin:0 20px;}
-.divRight { border-right:2px #f8382e solid; padding-bottom:40px;}
+.divRight { border-right:1px #f8382e solid; padding-bottom:40px;}
 
 #footerWrapper {border-top:2px solid #ffffff;}
 #footerWrapper .row { margin-left:0;}
@@ -295,7 +294,7 @@ input.placeholder-text, textarea.placeholder-text  {
 }
 
 .span9 {
-  width: 574px;
+  width: 575px;
 }
 
 .span3 {
@@ -311,4 +310,18 @@ input.placeholder-text, textarea.placeholder-text  {
 
 h6 {
   color: #144552;
+}
+
+.ui-state-error {
+  background-color: #fff!important;
+  color: #555555!important;
+}
+
+.formEmail {
+  margin: 0;
+}
+
+.ui-dialog-titlebar-close {
+  background-image: url(/assets/close.gif)!important;
+  background-repeat: no-repeat;
 }
