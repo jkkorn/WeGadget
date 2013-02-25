@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e364420e-432c-4a57-ad30-87228f4b91f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/email_cadastrado.rb" afterPath="$PROJECT_DIR$/app/models/email_cadastrado.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130224234223_create_email_cadastrados.rb" afterPath="$PROJECT_DIR$/db/migrate/20130224234223_create_email_cadastrados.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/001-drops.txt" afterPath="$PROJECT_DIR$/scripts/001-drops.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="WeGadget.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,7 +85,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20130220215228_create_events.rb" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
@@ -102,6 +97,7 @@
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/scripts/001-drops.txt" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -682,7 +678,11 @@
       <created>1361765683661</created>
       <updated>1361765683661</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="New things">
+      <created>1361828893658</created>
+      <updated>1361828893658</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -813,20 +813,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/redirecting.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="66" selection-start="3254" selection-end="3312" vertical-scroll-proportion="0.42358804">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/tutorial.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="257" selection-end="328" vertical-scroll-proportion="0.33887044">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tutorial_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="9" selection-start="1685" selection-end="1839" vertical-scroll-proportion="0.801626">
@@ -934,6 +920,20 @@
             <element signature="n#style#0;n#input#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/activeadmin-0.5.1/app/assets/javascripts/active_admin/components/jquery.aa.dropdown-menu.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="73" selection-start="402" selection-end="402" vertical-scroll-proportion="0.76347303">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="54" selection-start="224" selection-end="224" vertical-scroll-proportion="0.50898206">
+          <folding />
         </state>
       </provider>
     </entry>
