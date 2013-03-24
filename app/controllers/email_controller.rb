@@ -1,38 +1,16 @@
 class EmailController < ApplicationController
 
-
-  def create
-
-  @files = Dir.glob("emails/*")
-
-    @files.each do |file|
-
-      puts("###################################################"+file+"############################################")
-
-      File.open(file) do |txt|
-          txt.each_line do |email|
-              @email = Email.new( {:email => email} )
-              if @email.save
-                  puts(@email.email)
-              end
-          end
-      end
-
-    end
-
-  end
-
   def enviar
 
-    @users = Email.all
+    #@users = Email.all
 
 # ---------------- Codigo de teste -----------------------------------
-#	@user1 = Email.new( { :email => 'helenamcfreire@gmail.com' } )
-#	@user2 = Email.new( { :email => 'jdiojaidjasijasi@gmail.com' } )
-#	@user3 = Email.new( { :email => 'helenamcfreire@gmail.com' } )
+	@user1 = Email.new( { :email => 'helenamcfreire@gmail.com' } )
+	@user2 = Email.new( { :email => 'anderson.sg2@gmail.com' } )
+	@user3 = Email.new( { :email => 'jkkorn@gmail.com' } )
 #	@user4 = Email.new( { :email => 'ruwriwqueroiwurwe@gmail.com' } )
 	
-#	@users = [@user1]
+	@users = [@user1,@user2,@user3]
 
     @users.each do |user|
 

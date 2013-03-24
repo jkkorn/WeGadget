@@ -13,7 +13,4 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree
-//= require bootstrap
-//= require scrollpagination
-//= require nicEdit
-//= require jquery.orbit-1.2.3.min
+//= require jquery-ui-1.9.2.custom

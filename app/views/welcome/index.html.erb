@@ -1,50 +1,28 @@
-<div id="mainWrapper" class="container">
+<div class="fb-like"
+     data-href="http://levar.me"
+     data-send="false"
+     data-layout="box_count"
+     data-width="450"
+     style="margin-top: 10px; margin-left: 10px;"
+     data-show-faces="false">
+</div>
 
-  <div class="fb-like"
-       data-href="http://levar.me"
-       data-send="false"
-       data-layout="box_count"
-       data-width="450"
-       style="margin-bottom: 10px;"
-       data-show-faces="false">
+<div class="divPrincipal">
+  <div class="esquerda">
+    <div class="titulo">LEVAR.<span class="titulo azul">ME</span></div>
+    <div class="subtitulo">TE D&Aacute; UMA CARONA COM SEGURAN&Ccedil;A</div>
   </div>
-
-  <a href="https://twitter.com/share"
-     class="twitter-share-button"
-     data-url="http://levar.me"
-     data-text="#carona #agora"
-     data-lang="pt">Tweetar</a>
-
-  <div class="row">
-    <div class="topBanners span12" id="featured">
-
-          <a><img src='/assets/slide1.gif'/></a>
-
-    </div>
-    <div class="contentAreas span12"></div>
-  </div>
-  <div id="footerWrapper">
-        <div class="row footerRows">
-          <a href="#">
-            <div class="footerSquares span9 subBox1 hidden-phone receber-carona">
-                <span class="contactMe">Quero receber carona</span>
-                <div class="border"></div>
-            </div>
-          </a>
-          <a href="#">
-            <div class="footerSquares span9 subBox1 hidden-phone oferecer-carona">
-                <span class="contactMe">Quero oferecer carona</span>
-            </div>
-          </a>
-        </div>
+  <div class="direita">
+    <a href="#" class="oferecer-carona"><img src="/assets/ofereco-carona.png" /></a>
+    <a href="#" class="receber-carona"><img src="/assets/quero-carona.png" /></a>
   </div>
 </div>
 
 <div id="dialog-modal" title="Levar.me">
-  <h6>Ficou interessado? Informe seu e-mail para receber as atualizações</h6>
+  <h5 style="margin-left: 20px;">Ficou interessado? Informe seu e-mail e entraremos em contato:</h5>
   <%= form_for(@email_cadastrado, :url => {:action => 'create'}, :html => { :class => "formEmail" }) do |e| %>
       <%= e.text_field :email, :maxlength => 50, :style => "vertical-align: top; margin-left: 40px; width: 305px; text-align: center; margin-top: 15px;", :placeholder => 'your@email.com', :id => "email" %>
-      <input type="button" style="margin-top: 15px;" value="GO" class="btn btn-success" id="go" />
+      <input type="button" style="margin-top: 13px; padding: 3px; border-radius: 0;" value="GO" id="go" />
   <% end %>
   <h5 class="validateErros" style="color: #cd0a0a; margin-left: 40px;"></h5>
 </div>
@@ -55,51 +33,51 @@
     $(function() {
 
         var email = $("#email"),
-            erros = $( ".validateErros" );
+                erros = $( ".validateErros" );
 
         function checkRegexp( o, regexp) {
             return regexp.test(o.val());
         }
 
         $("#go")
-            .button()
-            .click(function() {
+                .button()
+                .click(function() {
 
-                email.removeClass("ui-state-error");
+                    email.removeClass("ui-state-error");
 
-                var validEmail = checkRegexp( email, /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
+                    var validEmail = checkRegexp( email, /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
 
-                if (email.val().length == 0) {
-                    email.addClass("ui-state-error");
-                    erros.text("Ops, você esqueceu de informar seu e-mail =/");
-                }
+                    if (email.val().length == 0) {
+                        email.addClass("ui-state-error");
+                        erros.text("Ops, você esqueceu de informar seu e-mail =/");
+                    }
 
-                else if (!validEmail) {
-                    email.addClass("ui-state-error");
-                    erros.text("Cara, esse não é um e-mail válido =|");
+                    else if (!validEmail) {
+                        email.addClass("ui-state-error");
+                        erros.text("Cara, esse não é um e-mail válido =|");
 
-                } else {
-                    erros.text("Parabéns, em breve você receberá notícias =)");
-                    erros.css('color','#51a351');
-                    setTimeout(function(){
-                        $(".formEmail").submit();
-                    }, 2000);
-                }
-            });
+                    } else {
+                        erros.text("Parabéns, em breve você receberá notícias =)");
+                        erros.css('color','#51a351');
+                        setTimeout(function(){
+                            $(".formEmail").submit();
+                        }, 2000);
+                    }
+                });
 
         $(".receber-carona")
-            .button()
-            .click(function() {
-                $('.formEmail').append('<input type="hidden" name="email_cadastrado[tipo]" value="receber" />');
-                $( "#dialog-modal" ).dialog( "open" );
-            });
+                .button()
+                .click(function() {
+                    $('.formEmail').append('<input type="hidden" name="email_cadastrado[tipo]" value="receber" />');
+                    $( "#dialog-modal" ).dialog( "open" );
+                });
 
         $(".oferecer-carona")
-            .button()
-            .click(function() {
-                $('.formEmail').append('<input type="hidden" name="email_cadastrado[tipo]" value="oferecer" />');
-                $( "#dialog-modal" ).dialog( "open" );
-            });
+                .button()
+                .click(function() {
+                    $('.formEmail').append('<input type="hidden" name="email_cadastrado[tipo]" value="oferecer" />');
+                    $( "#dialog-modal" ).dialog( "open" );
+                });
 
         $( "#dialog-modal" ).dialog({
             autoOpen: false,
@@ -108,25 +86,4 @@
             modal: true
         });
     });
-</script>
-
-<script type="text/javascript">
-
-    $(window).load(function() {
-        // Carrossel
-        $('#featured').orbit({
-            animation: 'fade',            // fade, horizontal-slide, vertical-slide, horizontal-push
-            animationSpeed: 800,          // how fast animtions are
-            timer: true,                  // true or false to have the timer
-            advanceSpeed: 4000,           // if timer is enabled, time between transitions
-            pauseOnHover: true,           // if you hover pauses the slider
-            startClockOnMouseOut: true,   // if clock should start on MouseOut
-            startClockOnMouseOutAfter: 0, // how long after MouseOut should the timer start again
-            directionalNav: false,        // manual advancing directional navs
-            bullets: true,                  // true or false to activate the bullet navigation
-            afterSlideChange: function(){}  // empty function
-        });
-
-    });
-
 </script>
